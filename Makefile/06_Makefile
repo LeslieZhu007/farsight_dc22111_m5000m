@@ -1,0 +1,7 @@
+var1:=abc
+var2=456
+var2?=123
+
+all:
+	echo $(var1)
+	echo $(var2)

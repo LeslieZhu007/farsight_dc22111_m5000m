@@ -1,0 +1,2 @@
+/home/linux/farsight/Drivers/day02/04myled-ok/myled.o
+

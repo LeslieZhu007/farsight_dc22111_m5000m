@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day02/export/demoA/demoA.ko := arm-linux-gnueabihf-ld -r  -EL --compress-debug-sections=zlib  --build-id=sha1  -T scripts/module.lds -o /home/linux/farsight/Drivers/day02/export/demoA/demoA.ko /home/linux/farsight/Drivers/day02/export/demoA/demoA.o /home/linux/farsight/Drivers/day02/export/demoA/demoA.mod.o;  true

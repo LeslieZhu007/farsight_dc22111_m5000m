@@ -1,0 +1,15 @@
+CC=gcc
+OBJ_BIN=main.o add.o sub.o
+CFLAGS=-c -o
+TARGET=cal
+
+$(TARGET):$(OBJ_BIN)
+	$(CC) $(OBJ_BIN)  -o cal
+main.o:main.c
+	$(CC) main.c $(CFLAGS) main.o
+add.o:add.c
+	$(CC) add.c $(CFLAGS) add.o
+sub.o:sub.c
+	$(CC) sub.c $(CFLAGS) sub.o
+clean:
+	rm *.o cal

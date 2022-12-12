@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day02/04_led_on_off/myled.mod := { echo  /home/linux/farsight/Drivers/day02/04_led_on_off/myled.o;  echo; } > /home/linux/farsight/Drivers/day02/04_led_on_off/myled.mod

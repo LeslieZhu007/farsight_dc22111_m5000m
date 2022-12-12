@@ -1,0 +1,7 @@
+var1=abc
+var2=$(var1)
+var1=def
+
+all:
+	@echo $(var1)
+	@echo $(var2)

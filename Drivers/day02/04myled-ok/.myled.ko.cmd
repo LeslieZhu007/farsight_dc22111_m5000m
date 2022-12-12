@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day02/04myled-ok/myled.ko := arm-linux-gnueabihf-ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/linux/farsight/Drivers/day02/04myled-ok/myled.ko /home/linux/farsight/Drivers/day02/04myled-ok/myled.o /home/linux/farsight/Drivers/day02/04myled-ok/myled.mod.o;  true

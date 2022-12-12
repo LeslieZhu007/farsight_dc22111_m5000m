@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day05/02_poll/mycdev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/linux/farsight/Drivers/day05/02_poll/mycdev.ko /home/linux/farsight/Drivers/day05/02_poll/mycdev.o /home/linux/farsight/Drivers/day05/02_poll/mycdev.mod.o;  true

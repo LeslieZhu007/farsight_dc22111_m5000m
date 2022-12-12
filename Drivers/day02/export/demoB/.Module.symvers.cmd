@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day02/export/demoB/Module.symvers := sed 's/ko$$/o/' /home/linux/farsight/Drivers/day02/export/demoB/modules.order | scripts/mod/modpost -m -a   -o /home/linux/farsight/Drivers/day02/export/demoB/Module.symvers -e -i /home/linux/farsight/Drivers/day02/export/demoA/Module.symvers   -T -

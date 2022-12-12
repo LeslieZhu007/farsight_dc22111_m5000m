@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day03/02_ioctl_node/Module.symvers := sed 's/ko$$/o/' /home/linux/farsight/Drivers/day03/02_ioctl_node/modules.order | scripts/mod/modpost -m  -E  -o /home/linux/farsight/Drivers/day03/02_ioctl_node/Module.symvers -e -i Module.symvers   -T -

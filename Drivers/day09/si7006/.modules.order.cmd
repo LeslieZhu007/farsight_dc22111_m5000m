@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day09/si7006/modules.order := {   echo /home/linux/farsight/Drivers/day09/si7006/si7006.ko; :; } | awk '!x[$$0]++' - > /home/linux/farsight/Drivers/day09/si7006/modules.order

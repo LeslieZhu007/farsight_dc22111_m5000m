@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day02/04_led_on_off/Module.symvers := sed 's/ko$$/o/' /home/linux/farsight/Drivers/day02/04_led_on_off/modules.order | scripts/mod/modpost -m  -E  -o /home/linux/farsight/Drivers/day02/04_led_on_off/Module.symvers -e -i Module.symvers   -T -

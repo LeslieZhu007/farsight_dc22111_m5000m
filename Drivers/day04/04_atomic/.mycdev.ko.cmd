@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day04/04_atomic/mycdev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/linux/farsight/Drivers/day04/04_atomic/mycdev.ko /home/linux/farsight/Drivers/day04/04_atomic/mycdev.o /home/linux/farsight/Drivers/day04/04_atomic/mycdev.mod.o;  true

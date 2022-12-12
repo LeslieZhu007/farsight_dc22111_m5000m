@@ -1,0 +1,2 @@
+/home/linux/farsight/Drivers/day01/module1/demo.o
+

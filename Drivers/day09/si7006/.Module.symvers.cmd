@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day09/si7006/Module.symvers := sed 's/ko$$/o/' /home/linux/farsight/Drivers/day09/si7006/modules.order | scripts/mod/modpost -m  -E  -o /home/linux/farsight/Drivers/day09/si7006/Module.symvers -e -i Module.symvers   -T -

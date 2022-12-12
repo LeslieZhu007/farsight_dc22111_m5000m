@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/day02/04_led_on_off/modules.order := {   echo /home/linux/farsight/Drivers/day02/04_led_on_off/myled.ko; :; } | awk '!x[$$0]++' - > /home/linux/farsight/Drivers/day02/04_led_on_off/modules.order

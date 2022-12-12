@@ -1,0 +1,10 @@
+cal:main.o add.o sub.o
+	gcc main.o add.o sub.o -o cal
+main.o:main.c
+	gcc -c main.c -o main.o
+add.o:add.c
+	gcc -c add.c -o add.o
+sub.o:sub.c
+	gcc -c sub.c -o sub.o
+clean:
+	rm *.o cal
