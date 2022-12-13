@@ -26,6 +26,7 @@ void test4()
     }  
     catch (exception &e) 
     {
+        //exception 为总的异常类
         cout<<e.what()<<endl;
     }
 }
