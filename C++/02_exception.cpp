@@ -9,7 +9,7 @@ int getArray(int a[],int len,int n)
 {
     if(n < 0 || n > len - 1)
     {
-        throw 0;
+        throw out_of_range("数组元素访问越界");
     } else
     {
         return a[n];
@@ -23,11 +23,10 @@ void test4()
     try {
         num = getArray(arr,sizeof(arr)/sizeof(int),20);
         cout << num << endl;
-    }  catch (int &e) {
-        if(e==0)
-        {
-            cout<<"array index out of bounds"<<endl;
-        }
+    }  
+    catch (exception &e) 
+    {
+        cout<<e.what()<<endl;
     }
 }
 
