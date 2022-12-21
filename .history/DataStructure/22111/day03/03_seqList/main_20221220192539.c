@@ -64,7 +64,6 @@ int main(int argc, char const *argv[])
     //调用销毁函数
     list_free(L); //==>值传递
 
-    L = NULL;
     list_show(L);
 
 

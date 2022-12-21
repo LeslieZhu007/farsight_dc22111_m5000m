@@ -228,8 +228,7 @@ datatype list_search_pos(seqList *L,int pos)
     if (NULL == L || list_empty(L) || pos < 0 || pos >=L->len)
     {
         printf("查找失败\n");
-        datatype error = 1000000;
-        return error;  //此时编译器会警告
+        return;
     }
 
     return L->data[pos]; //将指定位置的值返回
@@ -238,89 +237,24 @@ datatype list_search_pos(seqList *L,int pos)
 //按值查找返回位置
 int list_search_value(seqList *L,datatype e)
 {
-    //判断逻辑
-     if (NULL == L || list_empty(L) )
-     {
-        printf("查找失败\n");
-        return -1;
-     }
 
-     //查找逻辑
-     for (int i = 0; i < L->len; i++) //若要查找最后一个，倒过来遍历
-     {
-        if (L->data[i] == e)
-        {
-            return i;
-        }
-     }
-     printf("查找失败\n");
-     return -1;
 }
-
-//返回多个匹配的位置
-//int list_search_value(seqList *L,int pos[],datatype e);
 
 //顺序表排序
 void list_sort(seqList *L)
 {
-    //判断逻辑
-    if (NULL == L || L->len <=1 )
-    {
-        printf("排序失败\n");
-        return ;
-    }
-
-    //排序逻辑 ==> 冒泡排序
-    for (int i = 1; i < L->len ; i++)
-    {
-        for (int j = 0; j < L->len - i; j++)
-        {
-            if (L->data[j] > L->data[j+1])
-            {
-                datatype temp = L->data[j];
-                L->data[j] = L->data[j+1];
-                L->data[j+1] = temp;
-            }
-        }
-    }
-    printf("排序成功\n");
+    
 }
 
 //顺序表去重
 void list_unique(seqList *L)
 {
-    //判断逻辑
-    if (NULL == L || L->len <=1 )
-    {
-        printf("去重失败\n");
-        return ;
-    }
-
-    //去重逻辑
-    for (int i = 0; i < L->len; i++)
-    {
-        for (int j = i+1; j < L->len; j++)
-        {
-            if (L->data[i] == L->data[j])
-            {
-                //删除j的位置的元素，调用删除方法
-                list_delete_pos(L,j);
-                j--; //防止漏删  ==>画图
-            }
-        }
-    }
-    printf("去重成功\n");
+    
 }
 
 
 //顺序表释放
 void list_free(seqList *L)
 {
-    //判断逻辑
-     if (NULL != L )
-     {
-        free(L);
-        L = NULL;
-        printf("销毁成功\n");
-     }
+    
 }

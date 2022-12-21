@@ -16,7 +16,6 @@ int main(int argc, char const *argv[])
     list_add(L,8);
     list_add(L,2);
     list_add(L,4);
-    list_add(L,2);
 
     printf("插入前:\n");
     //调用遍历函数
@@ -54,19 +53,6 @@ int main(int argc, char const *argv[])
     //调用排序函数
     list_sort(L);
     list_show(L);
-
-    //调用去重函数
-    printf("调用去重函数\n");
-    list_unique(L);
-    list_show(L);
-
-
-    //调用销毁函数
-    list_free(L); //==>值传递
-
-    L = NULL;
-    list_show(L);
-
 
     return 0;
 }

@@ -317,10 +317,9 @@ void list_unique(seqList *L)
 void list_free(seqList *L)
 {
     //判断逻辑
-     if (NULL != L )
+     if (NULL == L )
      {
-        free(L);
-        L = NULL;
-        printf("销毁成功\n");
+        printf("释放失败\n");
+        return -1;
      }
 }

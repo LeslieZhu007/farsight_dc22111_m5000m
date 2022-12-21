@@ -305,7 +305,7 @@ void list_unique(seqList *L)
             {
                 //删除j的位置的元素，调用删除方法
                 list_delete_pos(L,j);
-                j--; //防止漏删  ==>画图
+                j--; //防止漏删
             }
         }
     }
@@ -316,11 +316,5 @@ void list_unique(seqList *L)
 //顺序表释放
 void list_free(seqList *L)
 {
-    //判断逻辑
-     if (NULL != L )
-     {
-        free(L);
-        L = NULL;
-        printf("销毁成功\n");
-     }
+    
 }

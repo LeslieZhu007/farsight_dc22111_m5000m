@@ -270,7 +270,7 @@ void list_sort(seqList *L)
         return ;
     }
 
-    //排序逻辑 ==> 冒泡排序
+    //排序逻辑
     for (int i = 1; i < L->len ; i++)
     {
         for (int j = 0; j < L->len - i; j++)
@@ -289,38 +289,12 @@ void list_sort(seqList *L)
 //顺序表去重
 void list_unique(seqList *L)
 {
-    //判断逻辑
-    if (NULL == L || L->len <=1 )
-    {
-        printf("去重失败\n");
-        return ;
-    }
-
-    //去重逻辑
-    for (int i = 0; i < L->len; i++)
-    {
-        for (int j = i+1; j < L->len; j++)
-        {
-            if (L->data[i] == L->data[j])
-            {
-                //删除j的位置的元素，调用删除方法
-                list_delete_pos(L,j);
-                j--; //防止漏删  ==>画图
-            }
-        }
-    }
-    printf("去重成功\n");
+    
 }
 
 
 //顺序表释放
 void list_free(seqList *L)
 {
-    //判断逻辑
-     if (NULL != L )
-     {
-        free(L);
-        L = NULL;
-        printf("销毁成功\n");
-     }
+    
 }
