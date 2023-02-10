@@ -7,7 +7,7 @@
 #include <string.h>
 
 #define PORT 8888 //1024-49151
-#define IP "192.168.8.249"  //ifconfig
+#define IP "192.168.8.26"  //ifconfig
 #define ERR_MSG(msg) do {\
     fprintf(stderr,"line: __%d__ ",__LINE__);\
     perror(msg);\
