@@ -1,0 +1,119 @@
+#include "linkqueue.h"
+
+
+
+//创建
+linkqueue * queue_create()
+{ 
+    //给队列申请空间
+    linkqueue *L = (linkqueue *)malloc(sizeof(linkqueue));
+    if (NULL == L)
+    {
+        printf("队列创建失败\n");
+        return NULL;
+    }
+
+    //创建队列成功后 L->head   L->tail是两个野指针
+
+    //需要定义一个头节点，让两个指针都指向头节点，表示队列为空
+    L->head = (Node *)malloc(sizeof(Node));
+    if (NULL == L->head)
+    {
+        printf("创建失败\n");
+        return NULL;
+    }
+
+    //给头节点初始化
+    L->head->len = 0;
+    L->head->next = NULL;
+
+    //将尾指针也指向头节点
+    L->tail = L->head;
+
+    printf("链式队列创建成功\n");
+    
+    return L;
+}
+
+
+//判空
+int queue_empty(linkqueue *L)
+{
+    return L->head == L->tail;
+}
+
+//入队
+void queue_push(linkqueue *L,datatype e)
+{
+    //判断逻辑
+    if (NULL == L || NULL==L->head) //队列合法，链表合法
+    {
+        printf("插入失败\n");
+        return;
+    }
+    
+
+    //申请节点封装数据
+    Node *p = (Node *)malloc(sizeof(Node));
+    if (NULL == p)
+    {
+        printf("节点申请失败\n");
+        return;
+    }
+    p->data = e;
+    p->next = NULL;
+
+
+    //入队逻辑
+    L->tail->next=p; //将新节点放在队尾位置
+
+    L->tail = p; //更新尾指针
+
+    //队长变化
+    L->head->len++;
+
+    printf("入队成功\n");
+}
+
+//遍历
+void queue_show(linkqueue *L)
+{
+    //判断逻辑
+    if (NULL == L ||NULL== L->head || queue_empty(L))
+    {
+        printf("遍历失败\n");
+        return;
+    }
+    printf("从队头到队尾元素分别是: ");
+    //遍历逻辑
+    Node * q = L->head;
+    while ((q=q->next)!=NULL)
+    {
+        printf("%d\t",q->data);
+    }
+    
+    printf("\n");
+}
+
+//出队
+void queue_pop(linkqueue *L)
+{
+    //头删   （入队 尾插）
+    //判断逻辑
+    if (NULL == L ||NULL== L->head || queue_empty(L))
+    {
+        printf("出队失败\n");
+        return;
+    }
+}
+//求返回队列长度
+int queue_size(linkqueue *L)
+{
+
+}
+
+//销毁
+void queue_free(linkqueue *L)
+{
+
+}

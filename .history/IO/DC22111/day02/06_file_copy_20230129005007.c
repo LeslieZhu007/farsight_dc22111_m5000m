@@ -1,0 +1,56 @@
+#include <stdio.h>
+#define ERR_MSG(msg) do\
+{\
+    fprintf(stderr,"line:%d\n",__LINE__);\
+    perror(msg);\
+} while (0);
+
+
+int main(int argc, char const *argv[])
+{
+    if (argc < 3)
+    {
+        fprintf(stderr,"请在命令行传入两个文件名，格式: 源文件名 目标文件名\n");
+        return -1;
+    }
+    
+    FILE *src_fp = fopen(argv[1],"r");
+    if (NULL == src_fp)
+    {
+        ERR_MSG("src_fopen");
+        return -1;
+    }
+
+    FILE *dest_fp = fopen(argv[2],"r");
+    if (NULL == dest_fp)
+    {
+        ERR_MSG("dest_fopen");
+        return -1;
+    }
+    /***********main code begin*************/
+    char str[128] = ""; {'\0'}
+    while ()
+    {
+        /* code */
+    }
+    
+
+
+
+
+    /***********main code end***************/
+    if (fclose(src_fp) < 0)
+    {
+        ERR_MSG("src_fclose");
+        return -1;
+    }
+
+    if (fclose(dest_fp) < 0)
+    {
+        ERR_MSG("dest_fclose");
+        return -1;
+    }
+    
+
+    return 0;
+}

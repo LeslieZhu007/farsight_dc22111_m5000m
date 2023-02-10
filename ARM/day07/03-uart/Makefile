@@ -21,6 +21,11 @@ OBJSss 	:= $(wildcard start/*.S) $(wildcard common/src/*.S) $(wildcard *.S)\
 OBJSs  	:= $(patsubst %.S,%.o,$(OBJSss))
 OBJS 	:= $(patsubst %.c,%.o,$(OBJSs))
 
+variable:
+	@echo $(OBJSss)
+	@echo $(OBJSs)
+	@echo $(OBJS)
+
 %.o: %.S 
 	@echo "  AS      $@"
 	@$(CC) $(CFLAGS) -c -o  $@ $<

@@ -36,10 +36,36 @@ int list_insert_tail(LinkList L,datatype e);
 int list_insert_pos(LinkList L,int pos,datatype e);
 
 //头删
+int list_delete_head(LinkList L);
 
 //尾删
+int list_delete_tail(LinkList L);
 
 //任意删
+int list_delete_pos(LinkList L,int pos);
 
+//任意位置修改函数
+int list_update_pos(LinkList L,int pos,datatype e);
+
+//按值查找返回对应的位置
+int list_search_value(LinkList L,datatype e);
+
+//按值进行修改函数
+int list_update_value(LinkList L,datatype old_e,datatype new_e);
+
+//使用选择排序完成单链表的升序排序
+void list_sort(LinkList L);
+
+//链表翻转
+void list_reverse(LinkList L);
+
+//链表释放
+void list_free(LinkList L);
+
+//单向链表简单选择排序
+void list_sort(LinkList L);
+
+//链表翻转
+LinkList list_recursive_reverse(LinkList L);
 
 #endif

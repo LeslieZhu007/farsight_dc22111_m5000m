@@ -1,0 +1,68 @@
+#include <stdio.h>
+
+void bubble_sort(int *arr,int n)
+{
+    for (int i = 1; i < n; i++) //外层循环控制趟数
+    {
+        for (int j = 0; i < n-i; i++) //内存循环控制元素，交换次数
+        {
+            if (arr[j] > arr[j+1]) //控制升降序
+            {
+                //交换
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+            
+        }
+        
+    }
+    printf("排序成功\n");
+}
+
+void bubble_sort_improve(int *arr,int n)
+{
+    for (int i = 1; i < n; i++) //外层循环控制趟数
+    {
+        int flag = 0; //在当前趟排序之前定义旗帜
+        for (int j = 0; j < n-i; j++) //内存循环控制元素，交换次数
+        {
+            if (arr[j] > arr[j+1]) //控制升降序
+            {
+                //交换
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+
+                flag = 1;
+            }
+        
+        }
+            //对flag进行判断，判断当前趟的排序是否进行了交换数据
+            if (flag == 0)
+            {
+                break;  //中止剩余的排序趟数
+            }
+            
+        
+    }
+    printf("排序成功\n");
+}
+
+
+int main(int argc, char const *argv[])
+{
+    int arr[] = {2,8,1,6,3,7,4,5};
+    int len = sizeof(arr)/sizeof(arr[0]); //求数组长度
+
+    //调用冒泡排序函数
+    bubble_sort_improve(arr,len);
+
+    printf("冒泡排序后的结果为: ");
+    for (int i = 0; i < len; i++)
+    {
+        printf("%d\t",arr[i]);
+    }
+    printf("\n");
+    return 0;
+}
