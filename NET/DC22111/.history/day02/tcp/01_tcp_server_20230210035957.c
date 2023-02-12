@@ -5,7 +5,6 @@
 #include <netinet/ip.h> /* superset of previous */
 #include <arpa/inet.h>
 #include <string.h>
-#include <unistd.h>
 
 #define PORT 8888 //1024-49151
 #define IP "192.168.8.249"  //ifconfig

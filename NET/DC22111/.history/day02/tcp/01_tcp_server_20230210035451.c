@@ -5,7 +5,6 @@
 #include <netinet/ip.h> /* superset of previous */
 #include <arpa/inet.h>
 #include <string.h>
-#include <unistd.h>
 
 #define PORT 8888 //1024-49151
 #define IP "192.168.8.249"  //ifconfig
@@ -44,7 +43,7 @@ int main(int argc, char const *argv[])
     sin.sin_port = htons(PORT); //1024~49151 网络字节序
     sin.sin_addr.s_addr = inet_addr(IP);  //本机IP
 
-    //bind: 功能 将IP地址和端口号绑定到指定套接字中
+    //bind: 功能 将
     if(bind(sfd, (const struct sockaddr *)&sin,sizeof(sin)) < 0)
     {
         ERR_MSG("bind");
@@ -52,7 +51,8 @@ int main(int argc, char const *argv[])
     }
     printf("bind success __%d__\n",__LINE__);
 
-    //listen: 将套接字设置为被动监听状态，只负责监听是否有客户端连接成功
+    //将套接字设置为被动监听状态，只负责监听是否有客户端连接成功
+
     if(listen(sfd,10) <0)
     {
         ERR_MSG("listen");
@@ -61,9 +61,7 @@ int main(int argc, char const *argv[])
     printf("listen success __%d__\n",__LINE__);
 
     //accept:阻塞函数，阻塞等待客户端连接成功
-             //当客户端连接成功后,会从已完成连接的队列头中获取一个客户端信息
-             //并生成一个新的文件描述符
-             //注意: 新生成的文件描述符才是用于通信的文件描述符
+             //当客户端连接成功后
     struct sockaddr_in cin; //存储客户端的地址信息
     socklen_t addrlen = sizeof(cin);
     int newfd = 0;
@@ -77,7 +75,8 @@ int main(int argc, char const *argv[])
 
 
     //通过文件描述符，读取数据
-    //原型 ssize_t recv(int sockfd, void *buf, size_t len, int flags);
+
+    ssize_t recv(int sockfd, void *buf, size_t len, int flags);
     char buf[128] = "";
     ssize_t  ret = 0;
     while (1)
@@ -88,20 +87,11 @@ int main(int argc, char const *argv[])
         {
             ERR_MSG("recv");
             break;
-        } else if (0 == ret)
-        {
-            printf("[%s | %d] newfd = %d 客户端断开连接\n",inet_ntoa(cin.sin_addr),ntohs(cin.sin_port),newfd);
-            break;
         }
-        
         printf("%ld: %s\n",ret,buf);
-
-        //TODO 发送
         
     }
     
-    close(newfd);
-    close(sfd);
     
     return 0;
 }

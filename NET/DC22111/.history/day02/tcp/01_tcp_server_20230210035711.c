@@ -5,7 +5,6 @@
 #include <netinet/ip.h> /* superset of previous */
 #include <arpa/inet.h>
 #include <string.h>
-#include <unistd.h>
 
 #define PORT 8888 //1024-49151
 #define IP "192.168.8.249"  //ifconfig
@@ -77,7 +76,8 @@ int main(int argc, char const *argv[])
 
 
     //通过文件描述符，读取数据
-    //原型 ssize_t recv(int sockfd, void *buf, size_t len, int flags);
+
+    ssize_t recv(int sockfd, void *buf, size_t len, int flags);
     char buf[128] = "";
     ssize_t  ret = 0;
     while (1)
@@ -88,20 +88,11 @@ int main(int argc, char const *argv[])
         {
             ERR_MSG("recv");
             break;
-        } else if (0 == ret)
-        {
-            printf("[%s | %d] newfd = %d 客户端断开连接\n",inet_ntoa(cin.sin_addr),ntohs(cin.sin_port),newfd);
-            break;
         }
-        
         printf("%ld: %s\n",ret,buf);
-
-        //TODO 发送
         
     }
     
-    close(newfd);
-    close(sfd);
     
     return 0;
 }
