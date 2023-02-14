@@ -70,7 +70,7 @@ int main(int argc, char const *argv[])
     printf("send protocol success\n");
 
     ssize_t ret = 0;
-    int fd = open("5.png",O_WRONLY|O_CREAT|O_TRUNC,0664); //权限不能少
+    int fd = open("4.png",O_WRONLY|O_CREAT|O_TRUNC);
     //int fd = open("1_udpSer.c",O_WRONLY|O_CREAT|O_TRUNC);
     if (fd < 0)
     {
@@ -96,14 +96,11 @@ int main(int argc, char const *argv[])
         */
         //从数据包中提取数据，存储到文件中
         ssize_t ret1 = write(fd,buf+4,ret-4);
-        /*
-        测试
         for (int i = 0; i < ret-4; i++)
         {
-            printf("%c",(buf+4)[i]);
+            printf("%c_",(buf+4)[i]);
         }
         break;
-        */
         printf("ret1 = %ld\n",ret1);
         //回复应答包 sendto
         *(short *)ack_buf = htons(4);
@@ -114,6 +111,7 @@ int main(int argc, char const *argv[])
             return -1;
         }
         printf("sendto success\n");
+
         //知道数据大小小于 512字节，结束循环，下载完毕
         if (ret-4 < 512)
         {
@@ -121,8 +119,11 @@ int main(int argc, char const *argv[])
             break;
         }
     }
+    
 
-    printf("file size = %ld\n",lseek(fd,0,SEEK_END));
+    
+
+
 
 
     return 0;

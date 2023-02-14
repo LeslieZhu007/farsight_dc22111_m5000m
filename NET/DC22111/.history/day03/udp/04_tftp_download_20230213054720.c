@@ -50,8 +50,7 @@ int main(int argc, char const *argv[])
     short *p1 = (short *)buf;
     *p1 = htons(1);  //下载
     char *p2 = buf + 2;
-    strcpy(p2,"5.png"); //文件名 ==>终端拿 1_udpSer.c
-    //strcpy(p2,"1_udpSer.c"); 
+    strcpy(p2,"5.png"); //文件名 ==>终端拿
     char  *p3 = p2+strlen(p2);
     *p3 = 0;
 
@@ -70,8 +69,7 @@ int main(int argc, char const *argv[])
     printf("send protocol success\n");
 
     ssize_t ret = 0;
-    int fd = open("5.png",O_WRONLY|O_CREAT|O_TRUNC,0664); //权限不能少
-    //int fd = open("1_udpSer.c",O_WRONLY|O_CREAT|O_TRUNC);
+    int fd = open("5.png",O_WRONLY|O_CREAT|O_TRUNC);
     if (fd < 0)
     {
         ERR_MSG("open");
@@ -83,7 +81,6 @@ int main(int argc, char const *argv[])
         bzero(buf,sizeof(buf));
         //循环接收数据包  recvfrom
         ret = recvfrom(sfd,buf,sizeof(buf),0,(struct sockaddr *)&sin,&addrlen);
-        printf("ret = %ld\n",ret);
         if (ret < 0)
         {
             ERR_MSG("recvfrom");
@@ -95,16 +92,7 @@ int main(int argc, char const *argv[])
         break;
         */
         //从数据包中提取数据，存储到文件中
-        ssize_t ret1 = write(fd,buf+4,ret-4);
-        /*
-        测试
-        for (int i = 0; i < ret-4; i++)
-        {
-            printf("%c",(buf+4)[i]);
-        }
-        break;
-        */
-        printf("ret1 = %ld\n",ret1);
+        write(fd,buf+4,ret-4);
         //回复应答包 sendto
         *(short *)ack_buf = htons(4);
         *((short *)ack_buf+1) = *((short *)buf+1);
@@ -114,15 +102,21 @@ int main(int argc, char const *argv[])
             return -1;
         }
         printf("sendto success\n");
+
         //知道数据大小小于 512字节，结束循环，下载完毕
-        if (ret-4 < 512)
+        if (ret < 512)
         {
             printf("下载完毕\n");
             break;
         }
+        
+       
     }
+    
 
-    printf("file size = %ld\n",lseek(fd,0,SEEK_END));
+    
+
+
 
 
     return 0;

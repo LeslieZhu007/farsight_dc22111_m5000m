@@ -70,7 +70,7 @@ int main(int argc, char const *argv[])
     printf("send protocol success\n");
 
     ssize_t ret = 0;
-    int fd = open("5.png",O_WRONLY|O_CREAT|O_TRUNC,0664); //权限不能少
+    int fd = open("5.png",O_WRONLY|O_CREAT|O_TRUNC);
     //int fd = open("1_udpSer.c",O_WRONLY|O_CREAT|O_TRUNC);
     if (fd < 0)
     {
@@ -121,6 +121,9 @@ int main(int argc, char const *argv[])
             break;
         }
     }
+    
+
+    
 
     printf("file size = %ld\n",lseek(fd,0,SEEK_END));
 
