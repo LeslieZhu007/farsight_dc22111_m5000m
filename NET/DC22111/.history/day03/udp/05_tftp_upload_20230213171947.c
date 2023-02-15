@@ -12,7 +12,7 @@
 #include <stdlib.h>
 
 #define SER_PORT 69 //1024-49151
-#define SER_IP "192.168.8.76"  //ifconfig
+#define SER_IP "192.168.8.177"  //ifconfig
 
 #define ERR_MSG(msg) do {\
     fprintf(stderr,"line: __%d__ ",__LINE__);\
@@ -44,7 +44,7 @@ int main(int argc, char const *argv[])
     
 
 
-    //发送下载请求给服务器，服务器IP widowsIP   port:69
+    //发送上传请求给服务器，服务器IP widowsIP   port:69
     char buf[516]={0};
     char ack_buf[4]={0};
     short *p1 = (short *)buf;

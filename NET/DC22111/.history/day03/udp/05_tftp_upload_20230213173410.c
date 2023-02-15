@@ -12,7 +12,7 @@
 #include <stdlib.h>
 
 #define SER_PORT 69 //1024-49151
-#define SER_IP "192.168.8.76"  //ifconfig
+#define SER_IP "192.168.8.177"  //ifconfig
 
 #define ERR_MSG(msg) do {\
     fprintf(stderr,"line: __%d__ ",__LINE__);\
@@ -44,11 +44,11 @@ int main(int argc, char const *argv[])
     
 
 
-    //发送下载请求给服务器，服务器IP widowsIP   port:69
+    //发送上传请求给服务器，服务器IP widowsIP   port:69
     char buf[516]={0};
     char ack_buf[4]={0};
     short *p1 = (short *)buf;
-    *p1 = htons(1);  //下载
+    *p1 = htons(2);  //上传
     char *p2 = buf + 2;
     strcpy(p2,"5.png"); //文件名 ==>终端拿 1_udpSer.c
     //strcpy(p2,"1_udpSer.c"); 
@@ -69,9 +69,9 @@ int main(int argc, char const *argv[])
     }
     printf("send protocol success\n");
 
+    //只读模式打开文件，用于上传
     ssize_t ret = 0;
-    int fd = open("5.png",O_WRONLY|O_CREAT|O_TRUNC,0664); //权限不能少
-    //int fd = open("1_udpSer.c",O_WRONLY|O_CREAT|O_TRUNC);
+    int fd = open("5.png",O_RDONLY); //只读不需权限
     if (fd < 0)
     {
         ERR_MSG("open");

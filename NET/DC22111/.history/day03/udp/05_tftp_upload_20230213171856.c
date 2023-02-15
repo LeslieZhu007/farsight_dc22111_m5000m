@@ -12,7 +12,7 @@
 #include <stdlib.h>
 
 #define SER_PORT 69 //1024-49151
-#define SER_IP "192.168.8.76"  //ifconfig
+#define SER_IP "192.168.8.177"  //ifconfig
 
 #define ERR_MSG(msg) do {\
     fprintf(stderr,"line: __%d__ ",__LINE__);\

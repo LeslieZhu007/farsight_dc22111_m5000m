@@ -19,6 +19,8 @@
     perror(msg);\
 } while (0)
 
+int do_download(int sfd,struct sockaddr_in sin,socklen_t addrlen);
+
 int main(int argc, char const *argv[])
 {
     
@@ -41,11 +43,51 @@ int main(int argc, char const *argv[])
     sin.sin_addr.s_addr = inet_addr(SER_IP);
     socklen_t addrlen = sizeof(sin);
 
+    int choose = 0;
+    while (1)
+    {
+        printf("****************************************\n");
+        printf("***********1.下载*************************\n");
+        printf("***********2.上传***********************\n");
+        printf("***********3.退出***********************\n");
+        printf("****************************************\n");
+        printf("请输入>>>");
+        scanf("%d",&choose);
+        while (getchar()!=10);
+        switch (choose)
+        {
+        case 1:
+            //do_download();
+            break;
+        case 2:
+            //do_upload();
+            break;
+        case 3:
+            goto END;
+            break;
+        
+        default:
+            printf("请重新输入\n");
+        }
+    }
+    
+
     
 
 
-    //发送下载请求给服务器，服务器IP widowsIP   port:69
+   
+
+END:
+    close(fd);
+    return 0;
+}
+
+
+int do_download(int sfd,struct sockaddr_in sin,socklen_t addrlen)
+{
+ //发送下载请求给服务器，服务器IP widowsIP   port:69
     char buf[516]={0};
+    char filename[20] = {0};
     char ack_buf[4]={0};
     short *p1 = (short *)buf;
     *p1 = htons(1);  //下载
@@ -60,7 +102,9 @@ int main(int argc, char const *argv[])
 
     char *p5 = p4+strlen(p4);
     *p5 = 0;
-
+    scanf("%s",filename);
+    while (getchar()!=10);
+    
     int size = 2+strlen(p2) + 1 + strlen(p4) + 1;
     if(sendto(sfd,buf,size,0,(struct sockaddr *)&sin,sizeof(sin)) < 0)
     {
@@ -70,7 +114,8 @@ int main(int argc, char const *argv[])
     printf("send protocol success\n");
 
     ssize_t ret = 0;
-    int fd = open("5.png",O_WRONLY|O_CREAT|O_TRUNC,0664); //权限不能少
+    
+    int fd = open(filename,O_WRONLY|O_CREAT|O_TRUNC,0664); //权限不能少
     //int fd = open("1_udpSer.c",O_WRONLY|O_CREAT|O_TRUNC);
     if (fd < 0)
     {
@@ -123,7 +168,4 @@ int main(int argc, char const *argv[])
     }
 
     printf("file size = %ld\n",lseek(fd,0,SEEK_END));
-
-
-    return 0;
 }
