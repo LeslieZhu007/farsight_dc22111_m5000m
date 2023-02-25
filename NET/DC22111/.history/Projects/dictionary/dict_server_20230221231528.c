@@ -1,0 +1,151 @@
+#include "dictionary.h"
+
+
+
+int main(int argc, char const *argv[])
+{
+    //捕获17号信号，注册新的处理函数，用于回收僵尸进程
+    __sighandler_t s = signal(SIGCHLD,handler);
+    if (SIG_ERR == s)
+    {
+        printf("signal");
+        return -1;
+    }
+    
+    //1.socket  创建流式套接字  -->> TCP
+    int sfd =  socket(AF_INET, SOCK_STREAM, 0);
+    if (sfd < 0)
+    {
+        ERR_MSG("socket");
+        return -1;
+    }
+    printf("sfd = %d\n",sfd);
+
+    //允许端口快速被复用
+    int reuse = 1;
+    if(setsockopt(sfd,SOL_SOCKET,SO_REUSEADDR,&reuse,sizeof(reuse)) < 0)
+    {
+        ERR_MSG("setsockopt");
+        return -1;
+    }
+
+    //填充地址信息结构体，真实的地址信息结构体在man 7 ip
+    //AF_INET --> man 7 ip
+    struct sockaddr_in sin;
+    sin.sin_family = AF_INET;   //必须要填AF_INET
+    sin.sin_port = htons(PORT); //1024~49151 网络字节序
+    sin.sin_addr.s_addr = inet_addr(IP);  //本机IP
+
+    //2.bind: 功能 将IP地址和端口号绑定到指定套接字中
+    if(bind(sfd, (const struct sockaddr *)&sin,sizeof(sin)) < 0)
+    {
+        ERR_MSG("bind");
+        return -1;
+    }
+    printf("bind success __%d__\n",__LINE__);
+
+    //3.listen: 将套接字设置为被动监听状态，只负责监听是否有客户端连接成功
+    if(listen(sfd,10) <0)
+    {
+        ERR_MSG("listen");
+        return -1;
+    }
+    printf("listen success __%d__\n",__LINE__);
+
+
+    struct sockaddr_in cin; //存储客户端的地址信息
+    socklen_t addrlen = sizeof(cin);
+    int newfd = 0;
+    int cpid = 0;
+    while (1)
+    {
+        //父进程只负责连接
+        //4. accept:阻塞函数，阻塞等待客户端连接成功
+            //当客户端连接成功后,会从已完成连接的队列头中获取一个客户端信息
+            //并生成一个新的文件描述符
+            //注意: 新生成的文件描述符才是用于通信的文件描述符
+        newfd =  accept(sfd,(struct sockaddr *)&cin,&addrlen);
+        if (newfd < 0)
+        {
+            ERR_MSG("accept");
+            return -1;
+        }
+        printf("[%s | %d] newfd = %d\n",inet_ntoa(cin.sin_addr),ntohs(cin.sin_port),newfd);
+
+
+        cpid = fork();
+        if (0==cpid)
+        {
+            close(sfd);  //sfd对于子进程没有用
+            //与客户端交互的代码
+            deal_cli_inter(newfd,cin);
+            //退出子进程
+            exit(0);
+        } else if(cpid > 0)
+        {
+            close(newfd);  //newfd对于父进程没有用
+        }
+    }
+
+    close(sfd);
+    return 0;
+}
+
+int deal_cli_inter(int newfd,struct sockaddr_in cin)
+{
+    //通过文件描述符，读取数据
+    //原型 ssize_t recv(int sockfd, void *buf, size_t len, int flags);
+    char buf[128] = "";
+    ssize_t  ret = 0;
+    while (1)
+    {
+        bzero(buf,sizeof(buf));
+        ret = recv(newfd,buf,sizeof(buf),0);
+        if (ret < 0)
+        {
+            ERR_MSG("recv");
+            break;
+        } else if (0 == ret)
+        {
+            printf("[%s | %d] newfd = %d 客户端断开连接\n",inet_ntoa(cin.sin_addr),ntohs(cin.sin_port),newfd);
+            break;
+        }
+        
+        printf("%ld: %s\n",ret,buf);
+        //TODO 发送 ----> 谁发给我数据，就发还给谁
+        //ssize_t send(int sockfd, const void *buf, size_t len, int flags);
+        strcat(buf,"*_*");
+        if (send(newfd,buf,sizeof(buf),0) < 0)
+        {
+            ERR_MSG("send");
+            return -1;
+        }
+        printf("send success\n");
+    }
+    close(newfd);
+    return 0;
+}
+
+
+
+
+
+
+//获取当前系统时间
+void get_system_time(char *time_buf)
+{
+    time_t cur_systime_milli = time(NULL);
+    struct tm *t = localtime(&cur_systime_milli);
+    sprintf(time_buf,"%4d-%02d-%02d %02d-%02d-%02d",
+    t->tm_year+1900,t->tm_mon+1,t->tm_mday,t->tm_hour,
+    t->tm_min,t->tm_sec);
+}
+
+//回收僵尸进程
+void handler(int sig)
+{
+    while (waitpid(-1,NULL,WNOHANG)>0); //循环回收僵尸进程
+}
+
+
+
