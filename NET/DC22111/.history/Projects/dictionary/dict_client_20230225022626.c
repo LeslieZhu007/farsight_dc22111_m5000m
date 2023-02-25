@@ -6,8 +6,8 @@
 
 int main(int argc, char const *argv[])
 {
-
-    /*****抽取函数******连接服务器部分 begin***************************/
+    //抽取函数
+    /*******************连接服务器部分 begin***************************/
     //1. 创建流式套接字
     int cfd = socket(AF_INET,SOCK_STREAM,0);
     if (cfd < 0)

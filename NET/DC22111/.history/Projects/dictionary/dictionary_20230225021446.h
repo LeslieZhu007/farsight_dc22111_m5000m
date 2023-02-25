@@ -20,7 +20,7 @@
 #define DB_NAME "dict.db"
 #define WORD_SQL "create table if not exists dictionary (word char,meaning char);"
 #define HISTORY_SQL "create table if not exists history (name char,word char,meaning char,time char);"
-#define USER_SQL "create table if not exists user (name char,passwd char,int status);"
+#define USER_SQL "create table if not exists user (name char,passwd char);"
 #define WORD_INSERT_FORMAT "insert into dictionary values(\"%s\",\"%s\");"
 #define FILE_PATH_TEST "dict_test.txt"
 #define FILE_PATH "dict.txt"
