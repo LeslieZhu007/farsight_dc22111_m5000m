@@ -1,0 +1,14 @@
+main (int argc, const char * * argv)
+{
+  int D.2252;
+
+  {
+    __builtin_puts (&"hello world"[0]);
+    D.2252 = 0;
+    return D.2252;
+  }
+  D.2252 = 0;
+  return D.2252;
+}
+
+

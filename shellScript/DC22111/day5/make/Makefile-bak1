@@ -1,0 +1,22 @@
+OBJs+=main.o
+OBJs+=fun.o
+OBJs+=fun1.o
+EXE=fun  # executable file
+CFLAGS=-c -w -g
+CC=gcc
+
+all:${EXE}
+
+fun:$(OBJs)
+	 $(CC) ${OBJs} -o $(EXE)
+
+fun.o:fun.c
+	 $(CC) $(CFLAGS) fun.c -o fun.o
+
+main.o:main.c
+	 $(CC) $(CFLAGS) main.c -o main.o
+
+fun1.o:fun1.c
+	 $(CC) $(CFLAGS) fun1.c -o fun1.o
+clean:
+	rm *.o fun
