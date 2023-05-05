@@ -1,0 +1,5 @@
+ERR = $(error found an error!) 
+.PHONY: err 
+err:$(ERR) 
+all:
+	echo $(err)

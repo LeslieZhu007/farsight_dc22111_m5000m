@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/DC22111/day10/spi/spi.ko := arm-linux-gnueabihf-ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/linux/farsight/Drivers/DC22111/day10/spi/spi.ko /home/linux/farsight/Drivers/DC22111/day10/spi/spi.o /home/linux/farsight/Drivers/DC22111/day10/spi/spi.mod.o;  true

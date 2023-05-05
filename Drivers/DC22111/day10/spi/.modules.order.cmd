@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/DC22111/day10/spi/modules.order := {   echo /home/linux/farsight/Drivers/DC22111/day10/spi/spi.ko; :; } | awk '!x[$$0]++' - > /home/linux/farsight/Drivers/DC22111/day10/spi/modules.order

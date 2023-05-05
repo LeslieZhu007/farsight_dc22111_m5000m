@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/DC22111/day03/mychrdev_class/Module.symvers := sed 's/ko$$/o/' /home/linux/farsight/Drivers/DC22111/day03/mychrdev_class/modules.order | scripts/mod/modpost   -E  -o /home/linux/farsight/Drivers/DC22111/day03/mychrdev_class/Module.symvers -e -i Module.symvers -i /home/linux/farsight/Drivers/DC22111/day02/1/Module.symvers   -T -

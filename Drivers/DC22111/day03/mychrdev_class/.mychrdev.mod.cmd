@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/DC22111/day03/mychrdev_class/mychrdev.mod := { echo  /home/linux/farsight/Drivers/DC22111/day03/mychrdev_class/mychrdev.o;  echo; } > /home/linux/farsight/Drivers/DC22111/day03/mychrdev_class/mychrdev.mod

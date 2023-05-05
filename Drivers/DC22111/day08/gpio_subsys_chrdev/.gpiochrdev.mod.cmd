@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/DC22111/day08/gpio_subsys_chrdev/gpiochrdev.mod := { echo  /home/linux/farsight/Drivers/DC22111/day08/gpio_subsys_chrdev/gpiochrdev.o;  echo; } > /home/linux/farsight/Drivers/DC22111/day08/gpio_subsys_chrdev/gpiochrdev.mod

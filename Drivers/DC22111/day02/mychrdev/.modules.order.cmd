@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/DC22111/day02/mychrdev/modules.order := {   echo /home/linux/farsight/Drivers/DC22111/day02/mychrdev/mychrdev.ko; :; } | awk '!x[$$0]++' - > /home/linux/farsight/Drivers/DC22111/day02/mychrdev/modules.order

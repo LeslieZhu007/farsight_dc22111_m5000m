@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BNAME	day10/mydisk/mydisk.c	12;"	d	file:
+BSIZE	day10/mydisk/mydisk.c	11;"	d	file:
+KERNELDIR	day10/mydisk/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day10/mydisk/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+PWD	day10/mydisk/Makefile	/^PWD:=$(shell pwd)$/;"	m
+addr	day10/mydisk/mydisk.c	/^char *addr;$/;"	v
+arch	day10/mydisk/Makefile	/^arch ?=x86$/;"	m
+disk	day10/mydisk/mydisk.c	/^struct gendisk *disk;$/;"	v	typeref:struct:gendisk
+fops	day10/mydisk/mydisk.c	/^const struct block_device_operations fops =$/;"	v	typeref:struct:block_device_operations
+major	day10/mydisk/mydisk.c	/^int major;$/;"	v
+modname	day10/mydisk/Makefile	/^modname ?=demo$/;"	m
+mqops	day10/mydisk/mydisk.c	/^const struct blk_mq_ops mqops =$/;"	v	typeref:struct:blk_mq_ops
+mydisk_exit	day10/mydisk/mydisk.c	/^module_exit(mydisk_exit);$/;"	v
+mydisk_exit	day10/mydisk/mydisk.c	/^static void __exit mydisk_exit(void)$/;"	f	file:
+mydisk_getgeo	day10/mydisk/mydisk.c	/^int mydisk_getgeo(struct block_device *blkdev, struct hd_geometry *hd)$/;"	f
+mydisk_init	day10/mydisk/mydisk.c	/^module_init(mydisk_init);$/;"	v
+mydisk_init	day10/mydisk/mydisk.c	/^static int __init mydisk_init(void)$/;"	f	file:
+mydisk_open	day10/mydisk/mydisk.c	/^int mydisk_open (struct block_device * blkdev, fmode_t mode)$/;"	f
+mydisk_queue_rq	day10/mydisk/mydisk.c	/^blk_status_t mydisk_queue_rq(struct blk_mq_hw_ctx *htctx,$/;"	f
+mydisk_release	day10/mydisk/mydisk.c	/^void mydisk_release (struct gendisk *gdisk, fmode_t mode)$/;"	f
+obj-m	day10/mydisk/Makefile	/^obj-m:=$(modname).o$/;"	m
+q	day10/mydisk/mydisk.c	/^struct request_queue *q;$/;"	v	typeref:struct:request_queue
+set	day10/mydisk/mydisk.c	/^struct blk_mq_tag_set set;$/;"	v	typeref:struct:blk_mq_tag_set

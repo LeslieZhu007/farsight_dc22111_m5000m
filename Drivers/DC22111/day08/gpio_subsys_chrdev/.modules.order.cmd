@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/DC22111/day08/gpio_subsys_chrdev/modules.order := {   echo /home/linux/farsight/Drivers/DC22111/day08/gpio_subsys_chrdev/gpiochrdev.ko; :; } | awk '!x[$$0]++' - > /home/linux/farsight/Drivers/DC22111/day08/gpio_subsys_chrdev/modules.order

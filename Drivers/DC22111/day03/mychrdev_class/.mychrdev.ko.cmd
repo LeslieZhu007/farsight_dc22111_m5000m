@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/DC22111/day03/mychrdev_class/mychrdev.ko := arm-linux-gnueabihf-ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/linux/farsight/Drivers/DC22111/day03/mychrdev_class/mychrdev.ko /home/linux/farsight/Drivers/DC22111/day03/mychrdev_class/mychrdev.o /home/linux/farsight/Drivers/DC22111/day03/mychrdev_class/mychrdev.mod.o;  true

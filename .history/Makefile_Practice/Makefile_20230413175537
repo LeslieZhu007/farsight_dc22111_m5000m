@@ -1,0 +1,7 @@
+
+reverse = $(2) $(1) 
+foo = $(call reverse,a,b) 
+ret=$(origin aaaa)
+all:
+	echo $(foo)
+	echo $(ret)

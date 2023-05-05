@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/DC22111/day01/mycdev/mycdev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/linux/farsight/Drivers/DC22111/day01/mycdev/mycdev.ko /home/linux/farsight/Drivers/DC22111/day01/mycdev/mycdev.o /home/linux/farsight/Drivers/DC22111/day01/mycdev/mycdev.mod.o;  true

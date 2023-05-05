@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "hdreg.h": "c",
+        "of.h": "c",
+        "platform_device.h": "c",
+        "init.h": "c",
+        "i2c.h": "c",
+        "spi.h": "c"
+    }
+}

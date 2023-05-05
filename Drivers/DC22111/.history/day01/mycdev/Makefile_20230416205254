@@ -1,0 +1,4 @@
+#定义一个变量存放内核源码路径
+KERNELDIR := /lib/modules/$(shell uname -r)/build
+
+PWD := $(shell pwd)

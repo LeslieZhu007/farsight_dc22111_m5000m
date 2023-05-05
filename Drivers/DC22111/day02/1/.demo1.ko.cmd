@@ -1,0 +1,1 @@
+cmd_/home/linux/farsight/Drivers/DC22111/day02/1/demo1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/linux/farsight/Drivers/DC22111/day02/1/demo1.ko /home/linux/farsight/Drivers/DC22111/day02/1/demo1.o /home/linux/farsight/Drivers/DC22111/day02/1/demo1.mod.o;  true

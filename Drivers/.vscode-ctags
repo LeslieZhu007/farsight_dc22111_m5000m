@@ -1,0 +1,623 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AFRH	day02/04_led_on_off/myled.h	/^	volatile unsigned int AFRH; \/\/0x24$/;"	m	struct:__anon2
+AFRH	day02/04myled-ok/myled.h	/^   volatile unsigned int AFRH;	  \/\/ 0x24 $/;"	m	struct:__anon1
+AFRH	day03/01_ioctl/myled.h	/^	volatile unsigned int AFRH; \/\/0x24$/;"	m	struct:__anon5
+AFRH	day03/02_ioctl_node/myled.h	/^	volatile unsigned int AFRH; \/\/0x24$/;"	m	struct:__anon3
+AFRH	day03/04_homework/myled.h	/^	volatile unsigned int AFRH; \/\/0x24$/;"	m	struct:__anon4
+AFRL	day02/04_led_on_off/myled.h	/^	volatile unsigned int AFRL; \/\/0x20$/;"	m	struct:__anon2
+AFRL	day02/04myled-ok/myled.h	/^   volatile unsigned int AFRL;	  \/\/ 0x20  $/;"	m	struct:__anon1
+AFRL	day03/01_ioctl/myled.h	/^	volatile unsigned int AFRL; \/\/0x20$/;"	m	struct:__anon5
+AFRL	day03/02_ioctl_node/myled.h	/^	volatile unsigned int AFRL; \/\/0x20$/;"	m	struct:__anon3
+AFRL	day03/04_homework/myled.h	/^	volatile unsigned int AFRL; \/\/0x20$/;"	m	struct:__anon4
+BNAME	day10/mydisk/mydisk.c	12;"	d	file:
+BRR	day02/04_led_on_off/myled.h	/^	volatile unsigned int BRR; \/\/0x28$/;"	m	struct:__anon2
+BRR	day02/04myled-ok/myled.h	/^   volatile unsigned int BRR;	  \/\/ 0x28 $/;"	m	struct:__anon1
+BRR	day03/01_ioctl/myled.h	/^	volatile unsigned int BRR; \/\/0x28$/;"	m	struct:__anon5
+BRR	day03/02_ioctl_node/myled.h	/^	volatile unsigned int BRR; \/\/0x28$/;"	m	struct:__anon3
+BRR	day03/04_homework/myled.h	/^	volatile unsigned int BRR; \/\/0x28$/;"	m	struct:__anon4
+BSIZE	day10/mydisk/mydisk.c	11;"	d	file:
+BSRR	day02/04_led_on_off/myled.h	/^	volatile unsigned int BSRR; \/\/0x18$/;"	m	struct:__anon2
+BSRR	day02/04myled-ok/myled.h	/^   volatile unsigned int BSRR;	  \/\/ 0x18 $/;"	m	struct:__anon1
+BSRR	day03/01_ioctl/myled.h	/^	volatile unsigned int BSRR; \/\/0x18$/;"	m	struct:__anon5
+BSRR	day03/02_ioctl_node/myled.h	/^	volatile unsigned int BSRR; \/\/0x18$/;"	m	struct:__anon3
+BSRR	day03/04_homework/myled.h	/^	volatile unsigned int BSRR; \/\/0x18$/;"	m	struct:__anon4
+CHR_BUF	day03/01_ioctl/myled.h	37;"	d
+CHR_BUF	day03/02_ioctl_node/myled.h	37;"	d
+CHR_BUF	day03/04_homework/myled.h	37;"	d
+CNAME	day02/03_uaccess/myled.c	5;"	d	file:
+CNAME	day02/04_led_on_off/myled.c	7;"	d	file:
+CNAME	day02/04myled-ok/myled.c	8;"	d	file:
+CNAME	day02/myled/myled.c	4;"	d	file:
+CNAME	day03/01_ioctl/myled.c	7;"	d	file:
+CNAME	day03/02_ioctl_node/myled.c	8;"	d	file:
+CNAME	day03/03_mycedv/mycdev.c	8;"	d	file:
+CNAME	day03/04_homework/mycdev.c	12;"	d	file:
+CNAME	day04/01_spinlock/mycdev.c	10;"	d	file:
+CNAME	day04/02_semaphore/mycdev.c	10;"	d	file:
+CNAME	day04/03_mutex/mycdev.c	10;"	d	file:
+CNAME	day04/04_atomic/mycdev.c	11;"	d	file:
+CNAME	day05/01_block/mycdev.c	11;"	d	file:
+CNAME	day05/02_poll/mycdev.c	13;"	d	file:
+COUNT	day03/03_mycedv/mycdev.c	9;"	d	file:
+COUNT	day03/03_mycedv/test.c	9;"	d	file:
+COUNT	day03/04_homework/mycdev.c	13;"	d	file:
+COUNT	day03/04_homework/test.c	9;"	d	file:
+COUNT	day04/01_spinlock/mycdev.c	11;"	d	file:
+COUNT	day04/01_spinlock/test.c	9;"	d	file:
+COUNT	day04/02_semaphore/mycdev.c	11;"	d	file:
+COUNT	day04/02_semaphore/test.c	9;"	d	file:
+COUNT	day04/03_mutex/mycdev.c	11;"	d	file:
+COUNT	day04/03_mutex/test.c	9;"	d	file:
+COUNT	day04/04_atomic/mycdev.c	12;"	d	file:
+COUNT	day04/04_atomic/test.c	9;"	d	file:
+COUNT	day05/01_block/mycdev.c	12;"	d	file:
+COUNT	day05/01_block/test.c	9;"	d	file:
+COUNT	day05/02_poll/mycdev.c	14;"	d	file:
+COUNT	day05/02_poll/test.c	10;"	d	file:
+GET_CMD_SIZE	day03/01_ioctl/myled.h	41;"	d
+GET_CMD_SIZE	day03/02_ioctl_node/myled.h	41;"	d
+GET_CMD_SIZE	day03/04_homework/myled.h	41;"	d
+GPIOE_PHY_BASE	day02/04_led_on_off/myled.h	5;"	d
+GPIOE_PHY_BASE	day02/04myled-ok/myled.h	5;"	d
+GPIOE_PHY_BASE	day03/01_ioctl/myled.h	5;"	d
+GPIOE_PHY_BASE	day03/02_ioctl_node/myled.h	5;"	d
+GPIOE_PHY_BASE	day03/04_homework/myled.h	5;"	d
+GPIOF_PHY_BASE	day03/01_ioctl/myled.h	6;"	d
+GPIOF_PHY_BASE	day03/02_ioctl_node/myled.h	6;"	d
+GPIOF_PHY_BASE	day03/04_homework/myled.h	6;"	d
+IDR	day02/04_led_on_off/myled.h	/^	volatile unsigned int IDR; \/\/0x10$/;"	m	struct:__anon2
+IDR	day02/04myled-ok/myled.h	/^   volatile unsigned int IDR;	  \/\/ 0x10 $/;"	m	struct:__anon1
+IDR	day03/01_ioctl/myled.h	/^	volatile unsigned int IDR; \/\/0x10$/;"	m	struct:__anon5
+IDR	day03/02_ioctl_node/myled.h	/^	volatile unsigned int IDR; \/\/0x10$/;"	m	struct:__anon3
+IDR	day03/04_homework/myled.h	/^	volatile unsigned int IDR; \/\/0x10$/;"	m	struct:__anon4
+IMAGE_STRUCT	day03/01_ioctl/myled.h	35;"	d
+IMAGE_STRUCT	day03/02_ioctl_node/myled.h	35;"	d
+IMAGE_STRUCT	day03/04_homework/myled.h	35;"	d
+INCLUDE_VERMAGIC	day02/04_led_on_off/myled.mod.c	2;"	d	file:
+INCLUDE_VERMAGIC	day02/04myled-ok/myled.mod.c	2;"	d	file:
+INCLUDE_VERMAGIC	day02/export/demoA/demoA.mod.c	2;"	d	file:
+INCLUDE_VERMAGIC	day02/export/demoB/demoB.mod.c	2;"	d	file:
+INCLUDE_VERMAGIC	day03/01_ioctl/myled.mod.c	2;"	d	file:
+INCLUDE_VERMAGIC	day03/02_ioctl_node/myled.mod.c	2;"	d	file:
+INCLUDE_VERMAGIC	day09/si7006/si7006.mod.c	2;"	d	file:
+KBUILD_EXTRA_SYMBOLS	day02/export/demoB/Makefile	/^KBUILD_EXTRA_SYMBOLS:=\/home\/linux\/farsight\/Drivers\/day02\/export\/demoA\/Module.symvers$/;"	m
+KERNELDIR	Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day01/module1/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day01/module2/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day01/module_param/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day02/03_uaccess/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day02/03_uaccess/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day02/04_led_on_off/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day02/04_led_on_off/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day02/04myled-ok/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day02/04myled-ok/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build\/$/;"	m
+KERNELDIR	day02/export/demoA/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day02/export/demoA/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day02/export/demoB/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day02/export/demoB/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day02/myled/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day02/myled/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day03/01_ioctl/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day03/01_ioctl/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day03/02_ioctl_node/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day03/02_ioctl_node/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day03/03_mycedv/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day03/03_mycedv/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day03/04_homework/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day03/04_homework/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day04/01_spinlock/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day04/01_spinlock/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day04/02_semaphore/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day04/02_semaphore/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day04/03_mutex/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day04/03_mutex/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day04/04_atomic/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day04/04_atomic/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day05/01_block/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day05/01_block/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day05/02_poll/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day05/02_poll/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day09/si7006/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day09/si7006/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	day10/mydisk/Makefile	/^KERNELDIR:=\/home\/linux\/linux-5.10.10\/$/;"	m
+KERNELDIR	day10/mydisk/Makefile	/^KERNELDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+LCKR	day02/04_led_on_off/myled.h	/^	volatile unsigned int LCKR; \/\/0x1C$/;"	m	struct:__anon2
+LCKR	day02/04myled-ok/myled.h	/^   volatile unsigned int LCKR;	  \/\/ 0x1C  $/;"	m	struct:__anon1
+LCKR	day03/01_ioctl/myled.h	/^	volatile unsigned int LCKR; \/\/0x1C$/;"	m	struct:__anon5
+LCKR	day03/02_ioctl_node/myled.h	/^	volatile unsigned int LCKR; \/\/0x1C$/;"	m	struct:__anon3
+LCKR	day03/04_homework/myled.h	/^	volatile unsigned int LCKR; \/\/0x1C$/;"	m	struct:__anon4
+LED1_OFF	day02/04_led_on_off/myled.c	13;"	d	file:
+LED1_OFF	day02/04myled-ok/myled.c	16;"	d	file:
+LED1_OFF	day03/01_ioctl/myled.c	22;"	d	file:
+LED1_OFF	day03/02_ioctl_node/myled.c	23;"	d	file:
+LED1_OFF	day03/04_homework/mycdev.c	24;"	d	file:
+LED1_ON	day02/04_led_on_off/myled.c	12;"	d	file:
+LED1_ON	day02/04myled-ok/myled.c	15;"	d	file:
+LED1_ON	day03/01_ioctl/myled.c	21;"	d	file:
+LED1_ON	day03/02_ioctl_node/myled.c	22;"	d	file:
+LED1_ON	day03/04_homework/mycdev.c	23;"	d	file:
+LED2_OFF	day03/01_ioctl/myled.c	25;"	d	file:
+LED2_OFF	day03/02_ioctl_node/myled.c	26;"	d	file:
+LED2_OFF	day03/04_homework/mycdev.c	27;"	d	file:
+LED2_ON	day03/01_ioctl/myled.c	24;"	d	file:
+LED2_ON	day03/02_ioctl_node/myled.c	25;"	d	file:
+LED2_ON	day03/04_homework/mycdev.c	26;"	d	file:
+LED2_OP	day03/01_ioctl/myled.h	39;"	d
+LED2_OP	day03/02_ioctl_node/myled.h	39;"	d
+LED2_OP	day03/04_homework/myled.h	39;"	d
+LED3_OFF	day03/04_homework/mycdev.c	30;"	d	file:
+LED3_ON	day03/04_homework/mycdev.c	29;"	d	file:
+MAX_EVENTS	day06/01_epoll/01_epoll.c	7;"	d	file:
+MODER	day02/04_led_on_off/myled.h	/^	volatile unsigned int MODER; \/\/0x00$/;"	m	struct:__anon2
+MODER	day02/04myled-ok/myled.h	/^   volatile unsigned int MODER;   \/\/ 0x00 $/;"	m	struct:__anon1
+MODER	day03/01_ioctl/myled.h	/^	volatile unsigned int MODER; \/\/0x00$/;"	m	struct:__anon5
+MODER	day03/02_ioctl_node/myled.h	/^	volatile unsigned int MODER; \/\/0x00$/;"	m	struct:__anon3
+MODER	day03/04_homework/myled.h	/^	volatile unsigned int MODER; \/\/0x00$/;"	m	struct:__anon4
+MODNAME	day02/export/demoA/Makefile	/^MODNAME ?=demo$/;"	m
+MODNAME	day02/export/demoB/Makefile	/^MODNAME ?=demo$/;"	m
+ODR	day02/04_led_on_off/myled.h	/^	volatile unsigned int ODR; \/\/0x14$/;"	m	struct:__anon2
+ODR	day02/04myled-ok/myled.h	/^   volatile unsigned int ODR;	  \/\/ 0x14 $/;"	m	struct:__anon1
+ODR	day03/01_ioctl/myled.h	/^	volatile unsigned int ODR; \/\/0x14$/;"	m	struct:__anon5
+ODR	day03/02_ioctl_node/myled.h	/^	volatile unsigned int ODR; \/\/0x14$/;"	m	struct:__anon3
+ODR	day03/04_homework/myled.h	/^	volatile unsigned int ODR; \/\/0x14$/;"	m	struct:__anon4
+OSPEEDR	day02/04_led_on_off/myled.h	/^	volatile unsigned int OSPEEDR; \/\/0x08$/;"	m	struct:__anon2
+OSPEEDR	day02/04myled-ok/myled.h	/^   volatile unsigned int OSPEEDR; \/\/ 0x08 $/;"	m	struct:__anon1
+OSPEEDR	day03/01_ioctl/myled.h	/^	volatile unsigned int OSPEEDR; \/\/0x08$/;"	m	struct:__anon5
+OSPEEDR	day03/02_ioctl_node/myled.h	/^	volatile unsigned int OSPEEDR; \/\/0x08$/;"	m	struct:__anon3
+OSPEEDR	day03/04_homework/myled.h	/^	volatile unsigned int OSPEEDR; \/\/0x08$/;"	m	struct:__anon4
+OTYPER	day02/04_led_on_off/myled.h	/^	volatile unsigned int OTYPER; \/\/0x04$/;"	m	struct:__anon2
+OTYPER	day02/04myled-ok/myled.h	/^   volatile unsigned int OTYPER;  \/\/ 0x04 $/;"	m	struct:__anon1
+OTYPER	day03/01_ioctl/myled.h	/^	volatile unsigned int OTYPER; \/\/0x04$/;"	m	struct:__anon5
+OTYPER	day03/02_ioctl_node/myled.h	/^	volatile unsigned int OTYPER; \/\/0x04$/;"	m	struct:__anon3
+OTYPER	day03/04_homework/myled.h	/^	volatile unsigned int OTYPER; \/\/0x04$/;"	m	struct:__anon4
+PUPDR	day02/04_led_on_off/myled.h	/^	volatile unsigned int PUPDR; \/\/0x0C$/;"	m	struct:__anon2
+PUPDR	day02/04myled-ok/myled.h	/^   volatile unsigned int PUPDR;   \/\/ 0x0C $/;"	m	struct:__anon1
+PUPDR	day03/01_ioctl/myled.h	/^	volatile unsigned int PUPDR; \/\/0x0C$/;"	m	struct:__anon5
+PUPDR	day03/02_ioctl_node/myled.h	/^	volatile unsigned int PUPDR; \/\/0x0C$/;"	m	struct:__anon3
+PUPDR	day03/04_homework/myled.h	/^	volatile unsigned int PUPDR; \/\/0x0C$/;"	m	struct:__anon4
+PWD	Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day01/module1/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day01/module2/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day01/module_param/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day02/03_uaccess/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day02/04_led_on_off/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day02/04myled-ok/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day02/export/demoA/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day02/export/demoB/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day02/myled/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day03/01_ioctl/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day03/02_ioctl_node/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day03/03_mycedv/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day03/04_homework/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day04/01_spinlock/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day04/02_semaphore/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day04/03_mutex/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day04/04_atomic/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day05/01_block/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day05/02_poll/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day09/si7006/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	day10/mydisk/Makefile	/^PWD:=$(shell pwd)$/;"	m
+RCC_ENB	day02/04_led_on_off/myled.h	6;"	d
+RCC_ENB	day02/04myled-ok/myled.h	6;"	d
+RCC_ENB	day03/01_ioctl/myled.h	7;"	d
+RCC_ENB	day03/02_ioctl_node/myled.h	7;"	d
+RCC_ENB	day03/04_homework/myled.h	7;"	d
+SECCFGR	day02/04_led_on_off/myled.h	/^	volatile unsigned int SECCFGR; \/\/0x30$/;"	m	struct:__anon2
+SECCFGR	day02/04myled-ok/myled.h	/^   volatile unsigned int SECCFGR; \/\/ 0x30 $/;"	m	struct:__anon1
+SECCFGR	day03/01_ioctl/myled.h	/^	volatile unsigned int SECCFGR; \/\/0x30$/;"	m	struct:__anon5
+SECCFGR	day03/02_ioctl_node/myled.h	/^	volatile unsigned int SECCFGR; \/\/0x30$/;"	m	struct:__anon3
+SECCFGR	day03/04_homework/myled.h	/^	volatile unsigned int SECCFGR; \/\/0x30$/;"	m	struct:__anon4
+__MYLED_H__	day02/04_led_on_off/myled.h	2;"	d
+__MYLED_H__	day02/04myled-ok/myled.h	3;"	d
+__MYLED_H__	day03/01_ioctl/myled.h	2;"	d
+__MYLED_H__	day03/02_ioctl_node/myled.h	2;"	d
+__MYLED_H__	day03/04_homework/myled.h	2;"	d
+__versions	day01/module1/demo.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+__versions	day01/module_param/demo.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+__versions	day03/03_mycedv/mycdev.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+__versions	day04/02_semaphore/mycdev.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+__versions	day04/03_mutex/mycdev.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+__versions	day04/04_atomic/mycdev.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+__versions	day05/01_block/mycdev.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+__versions	day05/02_poll/mycdev.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+__versions	day10/mydisk/mydisk.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+add	day02/export/demoA/demoA.c	/^EXPORT_SYMBOL_GPL(add);$/;"	v
+add	day02/export/demoA/demoA.c	/^int add(int a,int b)$/;"	f
+addr	day10/mydisk/mydisk.c	/^char *addr;$/;"	v
+ahb5	day03/01_ioctl/myled.c	/^unsigned int *ahb5 = NULL;$/;"	v
+ahb5	day03/02_ioctl_node/myled.c	/^unsigned int *ahb5 = NULL;$/;"	v
+ahb5	day03/04_homework/mycdev.c	/^unsigned int *ahb5 = NULL;$/;"	v
+arch	Makefile	/^arch ?=x86$/;"	m
+arch	day02/03_uaccess/Makefile	/^arch ?=x86$/;"	m
+arch	day02/04_led_on_off/Makefile	/^arch ?=x86$/;"	m
+arch	day02/04myled-ok/Makefile	/^arch ?=x86$/;"	m
+arch	day02/export/demoA/Makefile	/^arch ?=x86$/;"	m
+arch	day02/export/demoB/Makefile	/^arch ?=x86$/;"	m
+arch	day02/myled/Makefile	/^arch ?=x86$/;"	m
+arch	day03/01_ioctl/Makefile	/^arch ?=x86$/;"	m
+arch	day03/02_ioctl_node/Makefile	/^arch ?=x86$/;"	m
+arch	day03/03_mycedv/Makefile	/^arch ?=x86$/;"	m
+arch	day03/04_homework/Makefile	/^arch ?=x86$/;"	m
+arch	day04/01_spinlock/Makefile	/^arch ?=x86$/;"	m
+arch	day04/02_semaphore/Makefile	/^arch ?=x86$/;"	m
+arch	day04/03_mutex/Makefile	/^arch ?=x86$/;"	m
+arch	day04/04_atomic/Makefile	/^arch ?=x86$/;"	m
+arch	day05/01_block/Makefile	/^arch ?=x86$/;"	m
+arch	day05/02_poll/Makefile	/^arch ?=x86$/;"	m
+arch	day09/si7006/Makefile	/^arch ?=x86$/;"	m
+arch	day10/mydisk/Makefile	/^arch ?=x86$/;"	m
+array	day01/module_param/demo.c	/^int array[10] = {0};$/;"	v
+atm	day04/04_atomic/mycdev.c	/^atomic_t atm = ATOMIC_INIT(1);$/;"	v
+backlight	day01/module_param/demo.c	/^int backlight = 10;$/;"	v
+buf	day02/03_uaccess/test.c	/^char buf[128]={0};$/;"	v
+buf	day02/04_led_on_off/test.c	/^char buf[128]={0};$/;"	v
+buf	day02/04myled-ok/test.c	/^char buf[128] = {0};$/;"	v
+buf	day02/myled/test.c	/^char buf[128]={0};$/;"	v
+buf	day03/01_ioctl/test.c	/^char buf[128]={0};$/;"	v
+buf	day03/02_ioctl_node/test.c	/^char buf[128]={0};$/;"	v
+buf	day03/03_mycedv/test.c	/^char buf[128] = {0};$/;"	v
+buf	day03/04_homework/test.c	/^char buf[128] = {0};$/;"	v
+buf	day04/01_spinlock/test.c	/^char buf[128] = {0};$/;"	v
+buf	day04/02_semaphore/test.c	/^char buf[128] = {0};$/;"	v
+buf	day04/03_mutex/test.c	/^char buf[128] = {0};$/;"	v
+buf	day04/04_atomic/test.c	/^char buf[128] = {0};$/;"	v
+buf	day05/01_block/test.c	/^char buf[128] = {0};$/;"	v
+buf	day05/02_poll/test.c	/^char buf[128] = {0};$/;"	v
+buf	day06/01_epoll/01_epoll.c	/^char buf[128] = {0};$/;"	v
+cdev	day03/03_mycedv/mycdev.c	/^struct cdev *cdev = NULL;$/;"	v	typeref:struct:cdev
+cdev	day03/04_homework/mycdev.c	/^struct cdev *cdev = NULL;$/;"	v	typeref:struct:cdev
+cdev	day04/01_spinlock/mycdev.c	/^struct cdev *cdev = NULL;$/;"	v	typeref:struct:cdev
+cdev	day04/02_semaphore/mycdev.c	/^struct cdev *cdev = NULL;$/;"	v	typeref:struct:cdev
+cdev	day04/03_mutex/mycdev.c	/^struct cdev *cdev = NULL;$/;"	v	typeref:struct:cdev
+cdev	day04/04_atomic/mycdev.c	/^struct cdev *cdev = NULL;$/;"	v	typeref:struct:cdev
+cdev	day05/01_block/mycdev.c	/^struct cdev *cdev = NULL;$/;"	v	typeref:struct:cdev
+cdev	day05/02_poll/mycdev.c	/^struct cdev *cdev = NULL;$/;"	v	typeref:struct:cdev
+ch	day01/module_param/demo.c	/^char ch='a';$/;"	v
+ch1	day01/module_param/demo.c	/^char ch1 = 'H';$/;"	v
+cls	day03/02_ioctl_node/myled.c	/^struct class *cls;$/;"	v	typeref:struct:class
+cls	day03/03_mycedv/mycdev.c	/^struct class *cls = NULL;$/;"	v	typeref:struct:class
+cls	day03/04_homework/mycdev.c	/^struct class *cls = NULL;$/;"	v	typeref:struct:class
+cls	day04/01_spinlock/mycdev.c	/^struct class *cls = NULL;$/;"	v	typeref:struct:class
+cls	day04/02_semaphore/mycdev.c	/^struct class *cls = NULL;$/;"	v	typeref:struct:class
+cls	day04/03_mutex/mycdev.c	/^struct class *cls = NULL;$/;"	v	typeref:struct:class
+cls	day04/04_atomic/mycdev.c	/^struct class *cls = NULL;$/;"	v	typeref:struct:class
+cls	day05/01_block/mycdev.c	/^struct class *cls = NULL;$/;"	v	typeref:struct:class
+cls	day05/02_poll/mycdev.c	/^struct class *cls = NULL;$/;"	v	typeref:struct:class
+condition	day05/01_block/mycdev.c	/^int condition = 0;$/;"	v
+condition	day05/02_poll/mycdev.c	/^int condition = 0; \/\/数据是否准备好的变量$/;"	v
+curminor	day03/04_homework/mycdev.c	/^int curminor;$/;"	v
+data	day03/01_ioctl/test.c	/^int data = 0;$/;"	v
+data	day03/02_ioctl_node/test.c	/^int data = 0;$/;"	v
+demo_exit	day01/module1/demo.c	/^module_exit(demo_exit);$/;"	v
+demo_exit	day01/module1/demo.c	/^static void __exit demo_exit(void)$/;"	f	file:
+demo_exit	day01/module2/demo.c	/^module_exit(demo_exit);$/;"	v
+demo_exit	day01/module2/demo.c	/^static void __exit demo_exit(void)$/;"	f	file:
+demo_exit	day01/module_param/demo.c	/^module_exit(demo_exit);$/;"	v
+demo_exit	day01/module_param/demo.c	/^static void __exit demo_exit(void)$/;"	f	file:
+demo_exit	day02/export/demoA/demoA.c	/^module_exit(demo_exit);$/;"	v
+demo_exit	day02/export/demoA/demoA.c	/^static void __exit demo_exit(void)$/;"	f	file:
+demo_exit	day02/export/demoB/demoB.c	/^module_exit(demo_exit);$/;"	v
+demo_exit	day02/export/demoB/demoB.c	/^static void __exit demo_exit(void)$/;"	f	file:
+demo_init	day01/module1/demo.c	/^module_init(demo_init);$/;"	v
+demo_init	day01/module1/demo.c	/^static int __init demo_init(void)$/;"	f	file:
+demo_init	day01/module2/demo.c	/^module_init(demo_init);$/;"	v
+demo_init	day01/module2/demo.c	/^static int __init demo_init(void)$/;"	f	file:
+demo_init	day01/module_param/demo.c	/^module_init(demo_init);$/;"	v
+demo_init	day01/module_param/demo.c	/^static int __init demo_init(void)$/;"	f	file:
+demo_init	day02/export/demoA/demoA.c	/^module_init(demo_init);$/;"	v
+demo_init	day02/export/demoA/demoA.c	/^static int __init demo_init(void)$/;"	f	file:
+demo_init	day02/export/demoB/demoB.c	/^module_init(demo_init);$/;"	v
+demo_init	day02/export/demoB/demoB.c	/^static int __init demo_init(void)$/;"	f	file:
+dev	day03/02_ioctl_node/myled.c	/^struct device *dev;$/;"	v	typeref:struct:device
+dev	day03/03_mycedv/mycdev.c	/^struct device *dev = NULL;$/;"	v	typeref:struct:device
+dev	day03/04_homework/mycdev.c	/^struct device *dev = NULL;$/;"	v	typeref:struct:device
+dev	day04/01_spinlock/mycdev.c	/^struct device *dev = NULL;$/;"	v	typeref:struct:device
+dev	day04/02_semaphore/mycdev.c	/^struct device *dev = NULL;$/;"	v	typeref:struct:device
+dev	day04/03_mutex/mycdev.c	/^struct device *dev = NULL;$/;"	v	typeref:struct:device
+dev	day04/04_atomic/mycdev.c	/^struct device *dev = NULL;$/;"	v	typeref:struct:device
+dev	day05/01_block/mycdev.c	/^struct device *dev = NULL;$/;"	v	typeref:struct:device
+dev	day05/02_poll/mycdev.c	/^struct device *dev = NULL;$/;"	v	typeref:struct:device
+disk	day10/mydisk/mydisk.c	/^struct gendisk *disk;$/;"	v	typeref:struct:gendisk
+flags	day04/01_spinlock/mycdev.c	/^int flags = 0;$/;"	v
+fops	day02/03_uaccess/myled.c	/^const struct file_operations fops$/;"	v	typeref:struct:file_operations
+fops	day02/04_led_on_off/myled.c	/^const struct file_operations fops$/;"	v	typeref:struct:file_operations
+fops	day02/04myled-ok/myled.c	/^const struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	day02/myled/myled.c	/^const struct file_operations fops$/;"	v	typeref:struct:file_operations
+fops	day03/01_ioctl/myled.c	/^const struct file_operations fops$/;"	v	typeref:struct:file_operations
+fops	day03/02_ioctl_node/myled.c	/^const struct file_operations fops$/;"	v	typeref:struct:file_operations
+fops	day03/03_mycedv/mycdev.c	/^const struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	day03/04_homework/mycdev.c	/^const struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	day04/01_spinlock/mycdev.c	/^const struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	day04/02_semaphore/mycdev.c	/^const struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	day04/03_mutex/mycdev.c	/^const struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	day04/04_atomic/mycdev.c	/^const struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	day05/01_block/mycdev.c	/^const struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	day05/02_poll/mycdev.c	/^const struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	day10/mydisk/mydisk.c	/^const struct block_device_operations fops =$/;"	v	typeref:struct:block_device_operations
+gpio_t	day02/04_led_on_off/myled.h	/^} gpio_t;$/;"	t	typeref:struct:__anon2
+gpio_t	day02/04myled-ok/myled.h	/^}gpio_t;$/;"	t	typeref:struct:__anon1
+gpio_t	day03/01_ioctl/myled.h	/^} gpio_t;$/;"	t	typeref:struct:__anon5
+gpio_t	day03/02_ioctl_node/myled.h	/^} gpio_t;$/;"	t	typeref:struct:__anon3
+gpio_t	day03/04_homework/myled.h	/^} gpio_t;$/;"	t	typeref:struct:__anon4
+gpioe	day02/04_led_on_off/myled.c	/^gpio_t *gpioe = NULL;$/;"	v
+gpioe	day02/04myled-ok/myled.c	/^gpio_t *gpioe = NULL;$/;"	v
+gpioe	day03/01_ioctl/myled.c	/^gpio_t *gpioe = NULL;$/;"	v
+gpioe	day03/02_ioctl_node/myled.c	/^gpio_t *gpioe = NULL;$/;"	v
+gpioe	day03/04_homework/mycdev.c	/^gpio_t *gpioe = NULL;$/;"	v
+gpiof	day03/01_ioctl/myled.c	/^gpio_t *gpiof = NULL;$/;"	v
+gpiof	day03/02_ioctl_node/myled.c	/^gpio_t *gpiof = NULL;$/;"	v
+gpiof	day03/04_homework/mycdev.c	/^gpio_t *gpiof = NULL;$/;"	v
+height	day03/01_ioctl/myled.h	/^	int height;$/;"	m	struct:image
+height	day03/02_ioctl_node/myled.h	/^	int height;$/;"	m	struct:image
+height	day03/04_homework/myled.h	/^	int height;$/;"	m	struct:image
+image	day03/01_ioctl/myled.h	/^typedef struct image$/;"	s
+image	day03/01_ioctl/test.c	/^image_t image = {100,200,"png"};$/;"	v
+image	day03/02_ioctl_node/myled.h	/^typedef struct image$/;"	s
+image	day03/02_ioctl_node/test.c	/^image_t image = {100,200,"png"};$/;"	v
+image	day03/04_homework/myled.h	/^typedef struct image$/;"	s
+image02	day03/01_ioctl/test.c	/^image_t image02;$/;"	v
+image02	day03/02_ioctl_node/test.c	/^image_t image02;$/;"	v
+image_t	day03/01_ioctl/myled.h	/^} image_t;$/;"	t	typeref:struct:image
+image_t	day03/02_ioctl_node/myled.h	/^} image_t;$/;"	t	typeref:struct:image
+image_t	day03/04_homework/myled.h	/^} image_t;$/;"	t	typeref:struct:image
+image_type	day03/01_ioctl/myled.h	/^	char image_type[4]; \/\/jpg png bmp$/;"	m	struct:image
+image_type	day03/02_ioctl_node/myled.h	/^	char image_type[4]; \/\/jpg png bmp$/;"	m	struct:image
+image_type	day03/04_homework/myled.h	/^	char image_type[4]; \/\/jpg png bmp$/;"	m	struct:image
+kbuf	day02/03_uaccess/myled.c	/^char kbuf[128] = {0};$/;"	v
+kbuf	day02/04_led_on_off/myled.c	/^char kbuf[128] = {0};$/;"	v
+kbuf	day02/04myled-ok/myled.c	/^char kbuf[128] = {0};$/;"	v
+kbuf	day03/01_ioctl/myled.c	/^char kbuf[128] = {0};$/;"	v
+kbuf	day03/02_ioctl_node/myled.c	/^char kbuf[128] = {0};$/;"	v
+kbuf	day03/04_homework/mycdev.c	/^char kbuf[100] = {0};$/;"	v
+kbuf	day04/01_spinlock/mycdev.c	/^char kbuf[100] = {0};$/;"	v
+kbuf	day04/02_semaphore/mycdev.c	/^char kbuf[100] = {0};$/;"	v
+kbuf	day04/03_mutex/mycdev.c	/^char kbuf[100] = {0};$/;"	v
+kbuf	day04/04_atomic/mycdev.c	/^char kbuf[100] = {0};$/;"	v
+kbuf	day05/01_block/mycdev.c	/^char kbuf[100] = {0};$/;"	v
+kbuf	day05/02_poll/mycdev.c	/^char kbuf[100] = {0};$/;"	v
+lock	day04/01_spinlock/mycdev.c	/^spinlock_t lock;$/;"	v
+main	day02/03_uaccess/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day02/04_led_on_off/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day02/04myled-ok/test.c	/^int main(int argc, const char *argv[])$/;"	f
+main	day02/myled/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day03/01_ioctl/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day03/02_ioctl_node/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day03/03_mycedv/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day03/04_homework/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day04/01_spinlock/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day04/02_semaphore/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day04/03_mutex/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day04/04_atomic/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day05/01_block/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day05/02_poll/test.c	/^int main(int argc,const char* argv[])$/;"	f
+main	day06/01_epoll/01_epoll.c	/^int main(int argc,const char* argv[])$/;"	f
+major	day02/03_uaccess/myled.c	/^int major = 0;$/;"	v
+major	day02/04_led_on_off/myled.c	/^int major = 0;$/;"	v
+major	day02/04myled-ok/myled.c	/^int major = 0;$/;"	v
+major	day02/myled/myled.c	/^int major = 0;$/;"	v
+major	day03/01_ioctl/myled.c	/^int major = 0;$/;"	v
+major	day03/02_ioctl_node/myled.c	/^int major = 0;$/;"	v
+major	day03/03_mycedv/mycdev.c	/^int major = 500;$/;"	v
+major	day03/04_homework/mycdev.c	/^int major = 0;$/;"	v
+major	day04/01_spinlock/mycdev.c	/^int major = 0;$/;"	v
+major	day04/02_semaphore/mycdev.c	/^int major = 0;$/;"	v
+major	day04/03_mutex/mycdev.c	/^int major = 0;$/;"	v
+major	day04/04_atomic/mycdev.c	/^int major = 0;$/;"	v
+major	day05/01_block/mycdev.c	/^int major = 0;$/;"	v
+major	day05/02_poll/mycdev.c	/^int major = 0;$/;"	v
+major	day10/mydisk/mydisk.c	/^int major;$/;"	v
+minor	day03/03_mycedv/mycdev.c	/^int minor = 0;$/;"	v
+minor	day03/04_homework/mycdev.c	/^int minor = 0;$/;"	v
+minor	day04/01_spinlock/mycdev.c	/^int minor = 0;$/;"	v
+minor	day04/02_semaphore/mycdev.c	/^int minor = 0;$/;"	v
+minor	day04/03_mutex/mycdev.c	/^int minor = 0;$/;"	v
+minor	day04/04_atomic/mycdev.c	/^int minor = 0;$/;"	v
+minor	day05/01_block/mycdev.c	/^int minor = 0;$/;"	v
+minor	day05/02_poll/mycdev.c	/^int minor = 0;$/;"	v
+modname	Makefile	/^modname ?=demo$/;"	m
+modname	day02/03_uaccess/Makefile	/^modname ?=demo$/;"	m
+modname	day02/04_led_on_off/Makefile	/^modname ?=demo$/;"	m
+modname	day02/04myled-ok/Makefile	/^modname ?=demo$/;"	m
+modname	day02/myled/Makefile	/^modname ?=demo$/;"	m
+modname	day03/01_ioctl/Makefile	/^modname ?=demo$/;"	m
+modname	day03/02_ioctl_node/Makefile	/^modname ?=demo$/;"	m
+modname	day03/03_mycedv/Makefile	/^modname ?=demo$/;"	m
+modname	day03/04_homework/Makefile	/^modname ?=demo$/;"	m
+modname	day04/01_spinlock/Makefile	/^modname ?=demo$/;"	m
+modname	day04/02_semaphore/Makefile	/^modname ?=demo$/;"	m
+modname	day04/03_mutex/Makefile	/^modname ?=demo$/;"	m
+modname	day04/04_atomic/Makefile	/^modname ?=demo$/;"	m
+modname	day05/01_block/Makefile	/^modname ?=demo$/;"	m
+modname	day05/02_poll/Makefile	/^modname ?=demo$/;"	m
+modname	day09/si7006/Makefile	/^modname ?=demo$/;"	m
+modname	day10/mydisk/Makefile	/^modname ?=demo$/;"	m
+mqops	day10/mydisk/mydisk.c	/^const struct blk_mq_ops mqops =$/;"	v	typeref:struct:blk_mq_ops
+mutex	day04/03_mutex/mycdev.c	/^struct mutex mutex;$/;"	v	typeref:struct:mutex
+mycdev_close	day03/03_mycedv/mycdev.c	/^int mycdev_close(struct inode *inode, struct file *filp)$/;"	f
+mycdev_close	day04/01_spinlock/mycdev.c	/^int mycdev_close(struct inode *inode, struct file *filp)$/;"	f
+mycdev_close	day04/02_semaphore/mycdev.c	/^int mycdev_close(struct inode *inode, struct file *filp)$/;"	f
+mycdev_close	day04/03_mutex/mycdev.c	/^int mycdev_close(struct inode *inode, struct file *filp)$/;"	f
+mycdev_close	day04/04_atomic/mycdev.c	/^int mycdev_close(struct inode *inode, struct file *filp)$/;"	f
+mycdev_close	day05/01_block/mycdev.c	/^int mycdev_close(struct inode *inode, struct file *filp)$/;"	f
+mycdev_close	day05/02_poll/mycdev.c	/^int mycdev_close(struct inode *inode, struct file *filp)$/;"	f
+mycdev_exit	day03/03_mycedv/mycdev.c	/^module_exit(mycdev_exit);$/;"	v
+mycdev_exit	day03/03_mycedv/mycdev.c	/^static void __exit mycdev_exit(void)$/;"	f	file:
+mycdev_exit	day03/04_homework/mycdev.c	/^module_exit(mycdev_exit);$/;"	v
+mycdev_exit	day03/04_homework/mycdev.c	/^static void __exit mycdev_exit(void)$/;"	f	file:
+mycdev_exit	day04/01_spinlock/mycdev.c	/^module_exit(mycdev_exit);$/;"	v
+mycdev_exit	day04/01_spinlock/mycdev.c	/^static void __exit mycdev_exit(void)$/;"	f	file:
+mycdev_exit	day04/02_semaphore/mycdev.c	/^module_exit(mycdev_exit);$/;"	v
+mycdev_exit	day04/02_semaphore/mycdev.c	/^static void __exit mycdev_exit(void)$/;"	f	file:
+mycdev_exit	day04/03_mutex/mycdev.c	/^module_exit(mycdev_exit);$/;"	v
+mycdev_exit	day04/03_mutex/mycdev.c	/^static void __exit mycdev_exit(void)$/;"	f	file:
+mycdev_exit	day04/04_atomic/mycdev.c	/^module_exit(mycdev_exit);$/;"	v
+mycdev_exit	day04/04_atomic/mycdev.c	/^static void __exit mycdev_exit(void)$/;"	f	file:
+mycdev_exit	day05/01_block/mycdev.c	/^module_exit(mycdev_exit);$/;"	v
+mycdev_exit	day05/01_block/mycdev.c	/^static void __exit mycdev_exit(void)$/;"	f	file:
+mycdev_exit	day05/02_poll/mycdev.c	/^module_exit(mycdev_exit);$/;"	v
+mycdev_exit	day05/02_poll/mycdev.c	/^static void __exit mycdev_exit(void)$/;"	f	file:
+mycdev_init	day03/03_mycedv/mycdev.c	/^module_init(mycdev_init);$/;"	v
+mycdev_init	day03/03_mycedv/mycdev.c	/^static int __init mycdev_init(void)$/;"	f	file:
+mycdev_init	day03/04_homework/mycdev.c	/^module_init(mycdev_init);$/;"	v
+mycdev_init	day03/04_homework/mycdev.c	/^static int __init mycdev_init(void)$/;"	f	file:
+mycdev_init	day04/01_spinlock/mycdev.c	/^module_init(mycdev_init);$/;"	v
+mycdev_init	day04/01_spinlock/mycdev.c	/^static int __init mycdev_init(void)$/;"	f	file:
+mycdev_init	day04/02_semaphore/mycdev.c	/^module_init(mycdev_init);$/;"	v
+mycdev_init	day04/02_semaphore/mycdev.c	/^static int __init mycdev_init(void)$/;"	f	file:
+mycdev_init	day04/03_mutex/mycdev.c	/^module_init(mycdev_init);$/;"	v
+mycdev_init	day04/03_mutex/mycdev.c	/^static int __init mycdev_init(void)$/;"	f	file:
+mycdev_init	day04/04_atomic/mycdev.c	/^module_init(mycdev_init);$/;"	v
+mycdev_init	day04/04_atomic/mycdev.c	/^static int __init mycdev_init(void)$/;"	f	file:
+mycdev_init	day05/01_block/mycdev.c	/^module_init(mycdev_init);$/;"	v
+mycdev_init	day05/01_block/mycdev.c	/^static int __init mycdev_init(void)$/;"	f	file:
+mycdev_init	day05/02_poll/mycdev.c	/^module_init(mycdev_init);$/;"	v
+mycdev_init	day05/02_poll/mycdev.c	/^static int __init mycdev_init(void)$/;"	f	file:
+mycdev_open	day03/03_mycedv/mycdev.c	/^int mycdev_open(struct inode *inode, struct file *filp)$/;"	f
+mycdev_open	day04/01_spinlock/mycdev.c	/^int mycdev_open(struct inode *inode, struct file *filp)$/;"	f
+mycdev_open	day04/02_semaphore/mycdev.c	/^int mycdev_open(struct inode *inode, struct file *filp)$/;"	f
+mycdev_open	day04/03_mutex/mycdev.c	/^int mycdev_open(struct inode *inode, struct file *filp)$/;"	f
+mycdev_open	day04/04_atomic/mycdev.c	/^int mycdev_open(struct inode *inode, struct file *filp)$/;"	f
+mycdev_open	day05/01_block/mycdev.c	/^int mycdev_open(struct inode *inode, struct file *filp)$/;"	f
+mycdev_open	day05/02_poll/mycdev.c	/^int mycdev_open(struct inode *inode, struct file *filp)$/;"	f
+mycdev_poll	day05/02_poll/mycdev.c	/^__poll_t mycdev_poll (struct file *file, struct poll_table_struct *wait)$/;"	f
+mycdev_read	day03/03_mycedv/mycdev.c	/^ssize_t mycdev_read(struct file *filp, $/;"	f
+mycdev_read	day04/01_spinlock/mycdev.c	/^ssize_t mycdev_read(struct file *filp, $/;"	f
+mycdev_read	day04/02_semaphore/mycdev.c	/^ssize_t mycdev_read(struct file *filp, $/;"	f
+mycdev_read	day04/03_mutex/mycdev.c	/^ssize_t mycdev_read(struct file *filp, $/;"	f
+mycdev_read	day04/04_atomic/mycdev.c	/^ssize_t mycdev_read(struct file *filp, $/;"	f
+mycdev_read	day05/01_block/mycdev.c	/^ssize_t mycdev_read(struct file *filp, $/;"	f
+mycdev_read	day05/02_poll/mycdev.c	/^ssize_t mycdev_read(struct file *filp, $/;"	f
+mycdev_write	day03/03_mycedv/mycdev.c	/^ssize_t mycdev_write(struct file *filp, $/;"	f
+mycdev_write	day04/01_spinlock/mycdev.c	/^ssize_t mycdev_write(struct file *filp, $/;"	f
+mycdev_write	day04/02_semaphore/mycdev.c	/^ssize_t mycdev_write(struct file *filp, $/;"	f
+mycdev_write	day04/03_mutex/mycdev.c	/^ssize_t mycdev_write(struct file *filp, $/;"	f
+mycdev_write	day04/04_atomic/mycdev.c	/^ssize_t mycdev_write(struct file *filp, $/;"	f
+mycdev_write	day05/01_block/mycdev.c	/^ssize_t mycdev_write(struct file *filp, $/;"	f
+mycdev_write	day05/02_poll/mycdev.c	/^ssize_t mycdev_write(struct file *filp, $/;"	f
+mydisk_exit	day10/mydisk/mydisk.c	/^module_exit(mydisk_exit);$/;"	v
+mydisk_exit	day10/mydisk/mydisk.c	/^static void __exit mydisk_exit(void)$/;"	f	file:
+mydisk_getgeo	day10/mydisk/mydisk.c	/^int mydisk_getgeo(struct block_device *blkdev, struct hd_geometry *hd)$/;"	f
+mydisk_init	day10/mydisk/mydisk.c	/^module_init(mydisk_init);$/;"	v
+mydisk_init	day10/mydisk/mydisk.c	/^static int __init mydisk_init(void)$/;"	f	file:
+mydisk_open	day10/mydisk/mydisk.c	/^int mydisk_open (struct block_device * blkdev, fmode_t mode)$/;"	f
+mydisk_queue_rq	day10/mydisk/mydisk.c	/^blk_status_t mydisk_queue_rq(struct blk_mq_hw_ctx *htctx,$/;"	f
+mydisk_release	day10/mydisk/mydisk.c	/^void mydisk_release (struct gendisk *gdisk, fmode_t mode)$/;"	f
+myled_close	day02/04myled-ok/myled.c	/^int myled_close(struct inode *inode, struct file *filp)$/;"	f
+myled_close	day03/04_homework/mycdev.c	/^int myled_close(struct inode *inode, struct file *filp)$/;"	f
+myled_exit	day02/03_uaccess/myled.c	/^module_exit(myled_exit);$/;"	v
+myled_exit	day02/03_uaccess/myled.c	/^static void __exit myled_exit(void)$/;"	f	file:
+myled_exit	day02/04_led_on_off/myled.c	/^module_exit(myled_exit);$/;"	v
+myled_exit	day02/04_led_on_off/myled.c	/^static void __exit myled_exit(void)$/;"	f	file:
+myled_exit	day02/04myled-ok/myled.c	/^module_exit(myled_exit);$/;"	v
+myled_exit	day02/04myled-ok/myled.c	/^static void __exit myled_exit(void)$/;"	f	file:
+myled_exit	day02/myled/myled.c	/^module_exit(myled_exit);$/;"	v
+myled_exit	day02/myled/myled.c	/^static void __exit myled_exit(void)$/;"	f	file:
+myled_exit	day03/01_ioctl/myled.c	/^module_exit(myled_exit);$/;"	v
+myled_exit	day03/01_ioctl/myled.c	/^static void __exit myled_exit(void)$/;"	f	file:
+myled_exit	day03/02_ioctl_node/myled.c	/^module_exit(myled_exit);$/;"	v
+myled_exit	day03/02_ioctl_node/myled.c	/^static void __exit myled_exit(void)$/;"	f	file:
+myled_init	day02/03_uaccess/myled.c	/^module_init(myled_init);$/;"	v
+myled_init	day02/03_uaccess/myled.c	/^static int __init myled_init(void)$/;"	f	file:
+myled_init	day02/04_led_on_off/myled.c	/^module_init(myled_init);$/;"	v
+myled_init	day02/04_led_on_off/myled.c	/^static int __init myled_init(void)$/;"	f	file:
+myled_init	day02/04myled-ok/myled.c	/^module_init(myled_init);$/;"	v
+myled_init	day02/04myled-ok/myled.c	/^static int __init myled_init(void)$/;"	f	file:
+myled_init	day02/myled/myled.c	/^module_init(myled_init);$/;"	v
+myled_init	day02/myled/myled.c	/^static int __init myled_init(void)$/;"	f	file:
+myled_init	day03/01_ioctl/myled.c	/^module_init(myled_init);$/;"	v
+myled_init	day03/01_ioctl/myled.c	/^static int __init myled_init(void)$/;"	f	file:
+myled_init	day03/02_ioctl_node/myled.c	/^module_init(myled_init);$/;"	v
+myled_init	day03/02_ioctl_node/myled.c	/^static int __init myled_init(void)$/;"	f	file:
+myled_ioctl	day03/01_ioctl/myled.c	/^long myled_ioctl (struct file *fp, unsigned int cmd, unsigned long args)$/;"	f
+myled_ioctl	day03/02_ioctl_node/myled.c	/^long myled_ioctl (struct file *fp, unsigned int cmd, unsigned long args)$/;"	f
+myled_open	day02/03_uaccess/myled.c	/^int myled_open (struct inode *inp, struct file *fp)$/;"	f
+myled_open	day02/04_led_on_off/myled.c	/^int myled_open (struct inode *inp, struct file *fp)$/;"	f
+myled_open	day02/04myled-ok/myled.c	/^int myled_open(struct inode *inode, struct file *filp)$/;"	f
+myled_open	day02/myled/myled.c	/^int myled_open (struct inode *inp, struct file *fp)$/;"	f
+myled_open	day03/01_ioctl/myled.c	/^int myled_open (struct inode *inp, struct file *fp)$/;"	f
+myled_open	day03/02_ioctl_node/myled.c	/^int myled_open (struct inode *inp, struct file *fp)$/;"	f
+myled_open	day03/04_homework/mycdev.c	/^int myled_open(struct inode *inode, struct file *filp)$/;"	f
+myled_read	day02/03_uaccess/myled.c	/^ssize_t myled_read (struct file *fp, char __user *ubuf, size_t size, loff_t *offs)$/;"	f
+myled_read	day02/04_led_on_off/myled.c	/^ssize_t myled_read (struct file *fp, char __user *ubuf, size_t size, loff_t *offs)$/;"	f
+myled_read	day02/04myled-ok/myled.c	/^ssize_t myled_read(struct file *filp, $/;"	f
+myled_read	day02/myled/myled.c	/^ssize_t myled_read (struct file *fp, char __user *ubuf, size_t size, loff_t *offs)$/;"	f
+myled_read	day03/01_ioctl/myled.c	/^ssize_t myled_read (struct file *fp, char __user *ubuf, size_t size, loff_t *offs)$/;"	f
+myled_read	day03/02_ioctl_node/myled.c	/^ssize_t myled_read (struct file *fp, char __user *ubuf, size_t size, loff_t *offs)$/;"	f
+myled_read	day03/04_homework/mycdev.c	/^ssize_t myled_read(struct file *filp, $/;"	f
+myled_release	day02/03_uaccess/myled.c	/^int myled_release (struct inode *inp, struct file *fp)$/;"	f
+myled_release	day02/04_led_on_off/myled.c	/^int myled_release (struct inode *inp, struct file *fp)$/;"	f
+myled_release	day02/myled/myled.c	/^int myled_release (struct inode *inp, struct file *fp)$/;"	f
+myled_release	day03/01_ioctl/myled.c	/^int myled_release (struct inode *inp, struct file *fp)$/;"	f
+myled_release	day03/02_ioctl_node/myled.c	/^int myled_release (struct inode *inp, struct file *fp)$/;"	f
+myled_write	day02/03_uaccess/myled.c	/^ssize_t myled_write (struct file *fp, const char __user *ubuf, size_t size, loff_t *offs)$/;"	f
+myled_write	day02/04_led_on_off/myled.c	/^ssize_t myled_write (struct file *fp, const char __user *ubuf, size_t size, loff_t *offs)$/;"	f
+myled_write	day02/04myled-ok/myled.c	/^ssize_t myled_write(struct file *filp, $/;"	f
+myled_write	day02/myled/myled.c	/^ssize_t myled_write (struct file *fp, const char __user *ubuf, size_t size, loff_t *offs)$/;"	f
+myled_write	day03/01_ioctl/myled.c	/^ssize_t myled_write (struct file *fp, const char __user *ubuf, size_t size, loff_t *offs)$/;"	f
+myled_write	day03/02_ioctl_node/myled.c	/^ssize_t myled_write (struct file *fp, const char __user *ubuf, size_t size, loff_t *offs)$/;"	f
+myled_write	day03/04_homework/mycdev.c	/^ssize_t myled_write(struct file *filp, $/;"	f
+nump	day01/module_param/demo.c	/^int nump;$/;"	v
+obj-m	Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day01/module1/Makefile	/^obj-m:=demo.o$/;"	m
+obj-m	day01/module2/Makefile	/^obj-m:=demo.o$/;"	m
+obj-m	day01/module_param/Makefile	/^obj-m:=demo.o$/;"	m
+obj-m	day02/03_uaccess/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day02/04_led_on_off/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day02/04myled-ok/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day02/export/demoA/Makefile	/^obj-m:=$(MODNAME).o$/;"	m
+obj-m	day02/export/demoB/Makefile	/^obj-m:=$(MODNAME).o$/;"	m
+obj-m	day02/myled/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day03/01_ioctl/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day03/02_ioctl_node/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day03/03_mycedv/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day03/04_homework/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day04/01_spinlock/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day04/02_semaphore/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day04/03_mutex/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day04/04_atomic/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day05/01_block/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day05/02_poll/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day09/si7006/Makefile	/^obj-m:=$(modname).o$/;"	m
+obj-m	day10/mydisk/Makefile	/^obj-m:=$(modname).o$/;"	m
+of_table	day09/si7006/si7006.c	/^const struct of_device_id of_table[] =$/;"	v	typeref:struct:of_device_id
+p	day01/module_param/demo.c	/^char *p = "hello world";$/;"	v
+p1	day01/module_param/demo.c	/^char *p1 = "Today is 10.6 in 2022,a decisive day";$/;"	v
+q	day10/mydisk/mydisk.c	/^struct request_queue *q;$/;"	v	typeref:struct:request_queue
+rcc	day02/04_led_on_off/myled.c	/^unsigned int *rcc;$/;"	v
+rcc	day02/04myled-ok/myled.c	/^unsigned int * rcc;$/;"	v
+rcc	day03/01_ioctl/myled.c	/^unsigned int *rcc = NULL;$/;"	v
+rcc	day03/02_ioctl_node/myled.c	/^unsigned int *rcc = NULL;$/;"	v
+rcc	day03/04_homework/mycdev.c	/^unsigned int *rcc = NULL;$/;"	v
+res	day02/04_led_on_off/myled.h	/^	volatile unsigned int res; \/\/0x0C$/;"	m	struct:__anon2
+res	day02/04myled-ok/myled.h	/^   volatile unsigned int res; $/;"	m	struct:__anon1
+res	day03/01_ioctl/myled.h	/^	volatile unsigned int res; \/\/0x0C$/;"	m	struct:__anon5
+res	day03/02_ioctl_node/myled.h	/^	volatile unsigned int res; \/\/0x0C$/;"	m	struct:__anon3
+res	day03/04_homework/myled.h	/^	volatile unsigned int res; \/\/0x0C$/;"	m	struct:__anon4
+ret1	day02/03_uaccess/myled.c	/^int ret1;$/;"	v
+ret1	day03/01_ioctl/myled.c	/^int ret1;$/;"	v
+ret1	day03/02_ioctl_node/myled.c	/^int ret1;$/;"	v
+ret2	day02/03_uaccess/myled.c	/^int ret2;$/;"	v
+ret2	day03/01_ioctl/myled.c	/^int ret2;$/;"	v
+ret2	day03/02_ioctl_node/myled.c	/^int ret2;$/;"	v
+sem	day04/02_semaphore/mycdev.c	/^struct semaphore sem;$/;"	v	typeref:struct:semaphore
+send01	day03/01_ioctl/test.c	/^char send01[128] = "This message is sent from ubuntu";$/;"	v
+send01	day03/02_ioctl_node/test.c	/^char send01[128] = "This message is sent from ubuntu";$/;"	v
+set	day10/mydisk/mydisk.c	/^struct blk_mq_tag_set set;$/;"	v	typeref:struct:blk_mq_tag_set
+si7006_driver	day09/si7006/si7006.c	/^module_i2c_driver(si7006_driver);$/;"	v
+si7006_driver	day09/si7006/si7006.c	/^struct i2c_driver si7006_driver = {$/;"	v	typeref:struct:i2c_driver
+si7006_probe	day09/si7006/si7006.c	/^int si7006_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f
+si7006_remove	day09/si7006/si7006.c	/^int si7006_remove(struct i2c_client *client)$/;"	f
+tzen	day03/01_ioctl/myled.c	/^unsigned int *tzen = NULL;$/;"	v
+tzen	day03/02_ioctl_node/myled.c	/^unsigned int *tzen = NULL;$/;"	v
+tzen	day03/04_homework/mycdev.c	/^unsigned int *tzen = NULL;$/;"	v
+width	day03/01_ioctl/myled.h	/^	int width;$/;"	m	struct:image
+width	day03/02_ioctl_node/myled.h	/^	int width;$/;"	m	struct:image
+width	day03/04_homework/myled.h	/^	int width;$/;"	m	struct:image
+wq_head	day05/01_block/mycdev.c	/^wait_queue_head_t wq_head;$/;"	v
+wq_head	day05/02_poll/mycdev.c	/^wait_queue_head_t wq_head;$/;"	v
