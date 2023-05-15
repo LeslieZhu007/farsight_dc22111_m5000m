@@ -5,6 +5,8 @@
         "inet.h": "c",
         "stdlib.h": "c",
         "in.h": "c",
-        "ip.h": "c"
+        "ip.h": "c",
+        "staff.h": "c",
+        "limits": "c"
     }
 }
